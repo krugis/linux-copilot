@@ -1,0 +1,8 @@
+# For making HTTP requests to download files and scrape websites
+requests
+# For parsing HTML content
+beautifulsoup4
+# For interacting with Git repositories
+GitPython
+# For loading datasets from hubs
+datasets
