@@ -1,9 +1,9 @@
 import os
 from git import Repo, GitCommandError
 
-# A list of popular and well-structured dotfiles repositories
-# Source: Awesome Dotfiles lists and GitHub topics [6, 7]
-DOTFILES_REPOS =
+# A list of popular and well-structured dotfiles and script repositories
+# Sources: Awesome Dotfiles, GitHub Topics
+REPOS_TO_CLONE =
 
 def clone_repo(repo_url, base_dir):
     """Clones a single git repository into the specified directory."""
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
         
-    for repo_url in DOTFILES_REPOS:
+    for repo_url in REPOS_TO_CLONE:
         clone_repo(repo_url, OUTPUT_DIR)
         
     print("\nFinished cloning all specified repositories.")
