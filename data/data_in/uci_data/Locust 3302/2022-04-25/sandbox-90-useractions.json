@@ -1,0 +1,15 @@
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:26:17.224Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"amp","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:26:48.407Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap 172.18.1.15","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:28:10.437Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"namp 172.18.1.15","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:28:54.913Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"namp 100.100.100.41","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:29:19.019Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"sudo su apt install namp","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:29:23.156Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:30:06.463Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap -A 172.18.1.15","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:31:37.685Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"namp -sV 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:31:50.483Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap -sV 172.18.1.15","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:32:26.901Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"Pn 172.18.1.15","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:35:41.915Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"namp -help","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:36:06.063Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"namp --help","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:36:14.732Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:36:39.799Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap -sV -sc 172.18.1.15","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:37:42.062Z","ip":"10.1.135.83","sandbox_id":"90","cmd":"nmap -sV 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}

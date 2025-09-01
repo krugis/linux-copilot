@@ -1,0 +1,56 @@
+provisioning: Openstack
+
+name: pv276-2019-Echo
+hosts:
+  - name: web
+    base_box: debian-10-x86_64
+    base_box_user: debian
+    flavor: csirtmu.small2x4
+
+  - name: client
+    base_box: debian-10-x86_64
+    base_box_user: debian
+    flavor: csirtmu.small2x4
+
+  - name: attacker
+    base_box: csirtmu-kali-linux-2018.4-amd64
+    base_box_user: debian
+    flavor: csirtmu.small2x4
+
+routers:
+  - name: pt2pt-net
+    cidr: 100.100.100.0/29
+
+networks:
+  - name: big-broker
+    cidr: 172.18.1.0/24
+
+  - name: internet
+    cidr: 10.1.0.0/16
+
+net_mappings:
+  - host: web
+    network: big-broker
+    ip: 172.18.1.5
+
+  - host: client
+    network: internet
+    ip: 10.1.17.4
+
+  - host: attacker
+    network: internet
+    ip: 10.1.135.83
+
+router_mappings:
+  - router: pt2pt-net
+    network: big-broker
+    ip: 172.18.1.1
+
+  - router: pt2pt-net
+    network: internet
+    ip: 10.1.0.1
+
+block_internet: []
+include_user_access: 
+    - big-broker
+    - internet

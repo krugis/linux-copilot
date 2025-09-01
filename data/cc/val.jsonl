@@ -1,0 +1,1426 @@
+{"prompt": "lsusb -d", "completion": " {{assemblador}}:{{producte}}"}
+{"prompt": "alacritty", "completion": " --config-file {{路径/到/配置.toml}}"}
+{"prompt": "tr", "completion": " {{[-s|--squeeze-repeats]}} '{{invoer_karakters}}' < {{pad/naar/bestand}}"}
+{"prompt": "aws acm request-certificate --domain-name {{도메인_이름}}", "completion": " --validation-method {{검증_방법}}"}
+{"prompt": "cargo +nightly", "completion": " {{[b|build]}}"}
+{"prompt": "mplayer -loop {{0}}", "completion": " {{pad/naar/bestand}}"}
+{"prompt": "sudo ip {{[n|neighbour]}} {{add|delete}} {{ip_adresi}} lladdr {{mac_adresi}} dev {{eth0}}", "completion": " nud reachable"}
+{"prompt": "docker", "completion": " service rm {{nome_do_serviço|ID}}"}
+{"prompt": "uv add --dev {{paquete1 paquete2", "completion": " ...}}"}
+{"prompt": "blkpr {{[-c|--command]}} reserve {{[-k|--key]}} {{예약_키}} {{[-t|--type]}}", "completion": " exclusive-access {{경로/대상/장치}}"}
+{"prompt": "urpmq", "completion": " -i {{package}}"}
+{"prompt": "pipes.sh", "completion": " -C"}
+{"prompt": "ppmmix {{fadefactor}} {{path/to/input_file1.ppm path/to/input_file2.ppm ...}} >", "completion": " {{path/to/output_file.ppm}}"}
+{"prompt": "sudo ifmetric", "completion": " {{인터페이스}} {{값}}"}
+{"prompt": "ffuf -w {{path/to/wordlist}} -x {{http://127.0.0.1:8080}} -u", "completion": " {{http://example.com/FUZZ}}"}
+{"prompt": "pkg uninstall", "completion": " {{paquete}}"}
+{"prompt": "sic -h {{호스트}} -n", "completion": " {{닉네임}} -k {{비밀번호}}"}
+{"prompt": "ping -s 56", "completion": " -c 12 amazon.com"}
+{"prompt": "service cups", "completion": " status"}
+{"prompt": "feh --slideshow-delay {{secundos}}", "completion": " {{ruta/a/imagen}}"}
+{"prompt": "scrontab", "completion": " -l"}
+{"prompt": "fgrep {{검색_문자열}}", "completion": " {{경로/대상/파일}}"}
+{"prompt": "coredumpctl list", "completion": " {{program}}"}
+{"prompt": "osmium show", "completion": " {{경로/대상/입력.osm}}"}
+{"prompt": "bats", "completion": " --timing {{ruta/a/prueba.bats}}"}
+{"prompt": "figlet", "completion": " {{texto_de_entrada}}"}
+{"prompt": "b3sum {{경로/대상/파일1 경로/대상/파일2", "completion": " ...}} > {{경로/대상/파일.b3}}"}
+{"prompt": "kitex -module {{github.com/xx-org/xx-name}}", "completion": " {{路径/到/IDL文件.thrift}}"}
+{"prompt": "cp", "completion": " -L {{符號連結}} {{目錄/完整/路徑}}"}
+{"prompt": "openstack server", "completion": " list"}
+{"prompt": "qm reset --skiplock", "completion": " {{true}} {{vm_id}}"}
+{"prompt": "cd", "completion": " /usr/share/applications"}
+{"prompt": "expand {{[-i|--initial]}}", "completion": " {{path/to/file}}"}
+{"prompt": "ln", "completion": " {{/percorso/del/file}} {{percorso/del/collegamento}}"}
+{"prompt": "input tap", "completion": " {{х_позиция}} {{y_позиция}}"}
+{"prompt": "zipnote", "completion": " {{path/to/file.zip}} > {{path/to/file.txt}}"}
+{"prompt": "git subtree pull --prefix={{percorso/della/directory/}}", "completion": " {{url_repository}} {{master}}"}
+{"prompt": "airshare --upload {{code}}", "completion": " {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}"}
+{"prompt": "oathtool --totp --now \"{{2004-02-29 16:21:42}}\"", "completion": " --base32 \"{{비밀}}\""}
+{"prompt": "{{path/to/factorio}}", "completion": " {{[-h|--help]}}"}
+{"prompt": "dvc", "completion": " config {{key}} {{value}}"}
+{"prompt": "rm", "completion": " /var/log/fsck/*"}
+{"prompt": "{{command}} | base64", "completion": " {{[-d|--decode]}}"}
+{"prompt": "aws acm-pca update-certificate-authority --certificate-authority-arn {{ca_arn}} --certificate-authority-configuration", "completion": " {{ca_config}} --status {{status}}"}
+{"prompt": "grep {{[-rnI|--recursive --line-number", "completion": " --binary-files=without-match]}} \"{{шаблон_пошуку}}\" {{шлях/до/каталогу}}"}
+{"prompt": "gcloud config", "completion": " unset {{속성_이름}}"}
+{"prompt": "kill", "completion": " -URG 5051"}
+{"prompt": "lxterminal", "completion": " --title={{title_name}}"}
+{"prompt": "pass generate", "completion": " {{[-c|--clip]}} {{caminho/para/dados}} {{num}}"}
+{"prompt": "mas", "completion": " list"}
+{"prompt": "tic -xe {{terminal}}", "completion": " {{path/to/terminal.info}}"}
+{"prompt": "pamfile", "completion": " {{[-cou|-count]}} {{pad/naar/bestand}}"}
+{"prompt": "sudo btrfs {{[su|subvolume]}} {{[d|delete]}}", "completion": " {{path/to/subvolume}}"}
+{"prompt": "nmcli -f NAME,UUID,TYPE,DEVICE connection", "completion": " show"}
+{"prompt": "gh", "completion": " pr merge"}
+{"prompt": "git scp", "completion": " {{remote_name}} {{경로/대상/파일1 경로/대상/파일2 ...}}"}
+{"prompt": "fuser", "completion": " {{[-k|--kill]}} {{port}}/tcp"}
+{"prompt": "crane", "completion": " catalog {{[-h|--help]}}"}
+{"prompt": "sherlock {{username}} --proxy", "completion": " {{proxy_url}}"}
+{"prompt": "shortcuts run \"{{Count", "completion": " holidays}}\""}
+{"prompt": "mp4box -add {{입력1.mp4}}#audio -add", "completion": " {{입력2.mp4}}#video {{출력.mp4}}"}
+{"prompt": "{{comando}}", "completion": " | clamdscan -"}
+{"prompt": "chgrp students", "completion": " syllabus.pdf"}
+{"prompt": "diff", "completion": " {{[-r|--recursive]}} {{[-q|--brief]}} {{old_directory}} {{new_directory}}"}
+{"prompt": "calc -m", "completion": " {{mode}}"}
+{"prompt": "pkill -f", "completion": " cronjob.sh"}
+{"prompt": "ppmtompeg", "completion": " {{경로/대상/매개_변수_파일}}"}
+{"prompt": "grep", "completion": " \"{{検索パターン}}\" {{path/to/file}}"}
+{"prompt": "pueue", "completion": " kill"}
+{"prompt": "vim", "completion": " -c 'set hlsearch' file.txt"}
+{"prompt": "aws configure --profile", "completion": " {{profile_name}}"}
+{"prompt": "{{cat путь/к/файлу.json}} | jq {{--arg \"имя1\" \"значение1\" --arg \"имя2\" \"значение2\"", "completion": " ...}} '{{. + $ARGS.named}}'"}
+{"prompt": "gyb", "completion": " --email {{email@gmail.com}} --action restore --local-folder {{path/to/directory}}"}
+{"prompt": "fdp -T", "completion": " {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{path/to/input.gv}}"}
+{"prompt": "objcopy --input-target={{input_format}}", "completion": " --output-target {{output_format}} {{path/to/source_file}} {{path/to/target_file}}"}
+{"prompt": "pkg_info -Q", "completion": " {{패키지}}"}
+{"prompt": "arch-chroot", "completion": " {{경로/대상/새로운/루트}} {{zsh}}"}
+{"prompt": "minidlna", "completion": " -d"}
+{"prompt": "mkdir test && chmod", "completion": " 700 test"}
+{"prompt": "hping3 --scan {{80,3000,9000}}", "completion": " --syn {{ip_o_nombre_de_servidor}}"}
+{"prompt": "arp", "completion": " -d {{adresse}}"}
+{"prompt": "ykman oath accounts add", "completion": " {{[-i|--issuer]}} {{발행자}} {{이름}}"}
+{"prompt": "git -c '{{config.key}}={{値}}'", "completion": " {{サブコマンド}}"}
+{"prompt": "mpstat {{2}}", "completion": " {{5}}"}
+{"prompt": "sudo bpftrace", "completion": " -d -e '{{한_줄_프로그램}}'"}
+{"prompt": "caddy reverse-proxy --from", "completion": " :{{80}} --to localhost:{{8000}}"}
+{"prompt": "aws", "completion": " help"}
+{"prompt": "dotnet add", "completion": " {{경로/대상/프로젝트.csproj}} reference {{경로/대상/참조.csproj}}"}
+{"prompt": "sudo tlmgr update", "completion": " {{패키지}}"}
+{"prompt": "tldr", "completion": " printf"}
+{"prompt": "uname", "completion": " -arvmoip"}
+{"prompt": "waymore -mode R {{[-oR|--output-responses]}} {{path/to/example.com-url-responses}} {{[-i|--input]}}", "completion": " {{example.com}}"}
+{"prompt": "sudo", "completion": " fsck -r {{/dev/sdX}}"}
+{"prompt": "env", "completion": " VAR=xyz ./program"}
+{"prompt": "ruget --output", "completion": " {{파일_이름}} {{https://example.com/file}}"}
+{"prompt": "apt-cache policy", "completion": " {{пакет}}"}
+{"prompt": "clang {{pad/naar/bron1.c pad/naar/bron2.c ...}} {{[-o|--output]}}", "completion": " {{pad/naar/uitvoerbaar_bestand}}"}
+{"prompt": "adb", "completion": " reverse tcp:{{원격_포트}} tcp:{{로컬_포트}}"}
+{"prompt": "fsck", "completion": " -q {{/dev/sdX}}"}
+{"prompt": "xcodes runtimes {{download|install}} {{nama_runtime}}", "completion": " --directory {{jalan/menuju/direktori}}"}
+{"prompt": "tart set", "completion": " {{VM-이름}} --display {{640}}x{{400}}"}
+{"prompt": "vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}} -l {{3.0}} -f {{5.0}}", "completion": " -d {{3.0}}"}
+{"prompt": "bgpgrep", "completion": " {{master6.mrt}}"}
+{"prompt": "doctl {{[d|databases]}} {{[c|create]}}", "completion": " {{database_name}}"}
+{"prompt": "openstack subnet set", "completion": " --dns-nameserver 8.8.8.8 --name {{new_subnet_name}} {{subnet_id}}"}
+{"prompt": "cli53 {{[rc|rrcreate]}} {{example.com}} {{'www 300", "completion": " CNAME lb.example.com.'}}"}
+{"prompt": "complete", "completion": " -o nospace -F {{función}} {{comando}}"}
+{"prompt": "nmcli", "completion": " radio all"}
+{"prompt": "bpftrace", "completion": " {{[-V|--version]}}"}
+{"prompt": "telinit", "completion": " 6"}
+{"prompt": "scala-cli", "completion": " setup-ide {{경로/대상/스크립트.scala}}"}
+{"prompt": "gcc {{pad/naar/bron.c}} {{[-o|--output]}} {{pad/naar/uitvoerbaar_bestand}} -I{{pad/naar/header}}", "completion": " -L{{pad/naar/bibliotheek}} -l{{bibliotheek_naam}}"}
+{"prompt": "find", "completion": " /data -not -empty"}
+{"prompt": "neo4j-admin server", "completion": " start"}
+{"prompt": "echo {{bekende_sha384_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha384sum", "completion": " {{[-c|--check]}}"}
+{"prompt": "carthage update", "completion": " --platform ios"}
+{"prompt": "crane delete", "completion": " {{[-h|--help]}}"}
+{"prompt": "agate", "completion": " {{jalan/menuju/direktori_konten}}"}
+{"prompt": "gzip", "completion": " movie.mp4"}
+{"prompt": "weasyprint {{path/to/input.html}}", "completion": " {{path/to/output.png}} --base-url {{url_or_filename}}"}
+{"prompt": "rm", "completion": " ../test.log"}
+{"prompt": "bpftool btf", "completion": " list"}
+{"prompt": "urpmq --requires", "completion": " {{패키지}}"}
+{"prompt": "cal", "completion": " {{jaar}}"}
+{"prompt": "sudo crontab", "completion": " -r"}
+{"prompt": "sudo btrfs filesystem defragment -v", "completion": " -r {{경로/대상/폴더}}"}
+{"prompt": "Stop-Service", "completion": " -Name {{nombre_del_servicio}}"}
+{"prompt": ".", "completion": " {{path/to/file}}"}
+{"prompt": "distrobox-rm", "completion": " {{கொள்கலன்_பெயர்}}"}
+{"prompt": "kubectl exec {{nome_pod}} -- {{ls", "completion": " /}}"}
+{"prompt": "docker volume", "completion": " inspect {{nom_du_volume}}"}
+{"prompt": "su", "completion": " monitoring"}
+{"prompt": "curl {{[-f|--fail]}}", "completion": " {{[-O|--remote-name]}} {{[-L|--location]}} {{[-C|--continue-at]}} - {{http://exemple.fr/nom_fichier}}"}
+{"prompt": "rsync", "completion": " -avz rsync://user@host/module/ destination_dir/"}
+{"prompt": "figlet -f", "completion": " {{font_filename}} {{input_text}}"}
+{"prompt": "keybase decrypt {{[-i|--infile]}}", "completion": " {{input_file}} {{[-o|--outfile]}} {{output_file}}"}
+{"prompt": "aws kinesis put-record --stream-name {{이름}}", "completion": " --partition-key {{키}} --data \"$( echo \"{{my raw message}}\" | base64 )\""}
+{"prompt": "pct", "completion": " {{[t|template]}} {{100}}"}
+{"prompt": "cupsreject -r {{motivo}}", "completion": " {{destino1 destino2 ...}}"}
+{"prompt": "virt-install {{[-n|--name]}} {{vm_name}} --arch {{x86_64}}", "completion": " --virt-type {{kvm}} --machine {{q35}} --boot {{uefi}} --memory {{4096}} --disk path={{path/to/image.raw}},size={{16}} {{[-c|--cdrom]}} {{path/to/fedora.iso}}"}
+{"prompt": "ssh-keygen -y", "completion": " -f {{~/.ssh/OpenSSH_개인_키}}"}
+{"prompt": "ntfyme exec", "completion": " {{[-t|--track-process]}} {{[-c|--cmd]}} {{명령어}}"}
+{"prompt": "fstopgm", "completion": " {{경로/대상/입력.fs}} > {{경로/대상/출력.pgm}}"}
+{"prompt": "md-to-clip --special-placeholder-config {{path/to/config.yaml}}", "completion": " {{path/to/page1.md path/to/page2.md ...}}"}
+{"prompt": "dotenvx", "completion": " get {{clave}}"}
+{"prompt": "xed +{{10}}", "completion": " {{path/to/file}}"}
+{"prompt": "dotnet publish", "completion": " --configuration Release {{경로/대상/프로젝트_파일}}"}
+{"prompt": "sudo btrfs inspect-internal", "completion": " dump-tree {{chemin/vers/partition}}"}
+{"prompt": "brightness", "completion": " {{1}}"}
+{"prompt": "parallel-lint --exclude", "completion": " {{경로/대상/제외_폴더}} {{경로/대상/폴더}}"}
+{"prompt": "salt-key -r", "completion": " {{미니언_ID}}"}
+{"prompt": "zip", "completion": " frontend.zip *.js"}
+{"prompt": "gnmic -a {{아이피:포트}}", "completion": " get --path {{경로}}"}
+{"prompt": "sudo a2dismod", "completion": " --quiet {{modulo}}"}
+{"prompt": "tgpt --provider {{llama2}}", "completion": " {{[-s|--shell]}} \"{{prompt}}\""}
+{"prompt": "gow", "completion": " -h"}
+{"prompt": "go", "completion": " mod vendor"}
+{"prompt": "typst", "completion": " compile {{path/to/source.typ}} {{path/to/output.pdf}}"}
+{"prompt": "kinit", "completion": " -l {{5시간}}"}
+{"prompt": "chatgpt --init-prompt \"{{Anda adalah Rick, dari serial Rick", "completion": " and Morty. Tanggapi pertanyaan dengan gayanya dan menyertakan lelucon yang menghina.}}\""}
+{"prompt": "mkfs.ntfs", "completion": " -L {{volume_label}} {{/dev/sdb1}}"}
+{"prompt": "crontab -e # 0", "completion": " 1 * * * /docker_clean.sh"}
+{"prompt": "mtr -m 10", "completion": " example.com"}
+{"prompt": "crane", "completion": " config {{image_naam}}"}
+{"prompt": "tcpkill -i {{eth1}}", "completion": " host {{192.95.4.27}} and port {{2266}}"}
+{"prompt": "nxc", "completion": " {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-L|--list-modules]}}"}
+{"prompt": "dd bs=4194304 conv=noerror if={{/dev/source_drive}}", "completion": " of={{/dev/dest_drive}}"}
+{"prompt": "moro", "completion": " note {{3 hours on project Foo}}"}
+{"prompt": "ansible {{그룹명}}", "completion": " --list-hosts"}
+{"prompt": "echo \"{{string}}\"", "completion": " | boxes {{[-a|--align]}} v{{t|c|b}}"}
+{"prompt": "distrobox-export", "completion": " --app {{패키지}} --delete"}
+{"prompt": "ifconfig -a | grep", "completion": " dropped"}
+{"prompt": "qtchooser", "completion": " --print-env"}
+{"prompt": "velero", "completion": " backup create {{backup_name}}"}
+{"prompt": "rsync", "completion": " {{[-auL|--archive --update --copy-links]}} {{path/to/source}} {{path/to/destination}}"}
+{"prompt": "git prune", "completion": " --dry-run"}
+{"prompt": "hexdump -e '{{element_format", "completion": " .. end_format}}' {{path/to/file}}"}
+{"prompt": "ss {{[-4t|--ipv4 --tcp]}} src", "completion": " {{192.168/16}}"}
+{"prompt": "pw-loopback --capture-props='{{media.class=Audio/Sink", "completion": " audio.position=[FL FR]}}' --playback-props='{{audio.position=[FR FL]}}'"}
+{"prompt": "git remote add", "completion": " {{nome_do_remote}} {{url_do_remote}}"}
+{"prompt": "choco feature", "completion": " list"}
+{"prompt": "sudo", "completion": " envycontrol {{[-q|--query]}}"}
+{"prompt": "dart compile exe", "completion": " {{chemin/vers/fichier.dart}}"}
+{"prompt": "unzip", "completion": " -O {{gbk}} {{경로/대상/아카이브1.zip 경로/대상/아카이브2.zip ...}}"}
+{"prompt": "mid3v2", "completion": " --list-frames {{경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...}}"}
+{"prompt": "tokei", "completion": " {{path/to/directory}}"}
+{"prompt": "curl -b", "completion": " cookies.txt http://example.com"}
+{"prompt": "vim +call cursor(100,5)", "completion": " file.txt"}
+{"prompt": "qm {{[shu|shutdown]}} {{100}}", "completion": " && qm {{[w|wait]}} {{100}}"}
+{"prompt": "gst-launch-1.0 playbin", "completion": " uri={{protocol}}://{{host}}/{{path/to/file}}"}
+{"prompt": "view", "completion": " {{datoteka}}"}
+{"prompt": "tldr", "completion": " {{[-p|--platform]}} linux nl"}
+{"prompt": "terraform output", "completion": " {{name}}"}
+{"prompt": "xset", "completion": " -dpms"}
+{"prompt": "ffmpeg -i {{path/to/input_video.mp4}} -ss", "completion": " {{mm:ss}} -to {{mm2:ss2}} {{[-c|-codec]}} copy {{path/to/output_video.mp4}}"}
+{"prompt": "gh run", "completion": " watch"}
+{"prompt": "cd", "completion": " ~{{username}}"}
+{"prompt": "sudo", "completion": " semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}"}
+{"prompt": "calibredb remove {{id1 id2", "completion": " ...}}"}
+{"prompt": "xxd -c {{10}}", "completion": " {{file_di_input}}"}
+{"prompt": "tr '{{abcd}}'", "completion": " '{{jkmn}}' < {{pad/naar/bestand}}"}
+{"prompt": "hashcat --hash-type {{哈希类型id}} --attack-mode {{3}} --increment", "completion": " {{哈希值}} \"{{?a?a?a?a?a?a?a?a}}\""}
+{"prompt": "java -classpath {{경로/대상/클래스1}}:{{경로/대상/클래스2}}:.", "completion": " {{클래스명}}"}
+{"prompt": "docker secret inspect --pretty {{sır_ismi1", "completion": " sır_ismi2 ...}}"}
+{"prompt": "sudo useradd", "completion": " {{[-s|--shell]}} {{ruta/a/la/shell}} {{usuario}}"}
+{"prompt": "lsof -t", "completion": " {{caminho/para/arquivo}}"}
+{"prompt": "pngtopam", "completion": " {{path/to/image.png}} > {{path/to/output.pam}}"}
+{"prompt": "acme.sh --issue --dns {{dns_cf}} --domain", "completion": " {{ejemplo.com}} --challenge-alias {{alias-para-ejemplo-validacion.com}}"}
+{"prompt": "du {{[-h|--human-readable]}} {{[-d|--max-depth]}}", "completion": " N {{pfad/zu/verzeichnis}}"}
+{"prompt": "kill -SYS", "completion": " 4849"}
+{"prompt": "exec", "completion": " {{3}}<{{path/to/file}}"}
+{"prompt": "split -l 5000", "completion": " big_report.txt chunk_"}
+{"prompt": "ruby -run -e", "completion": " httpd"}
+{"prompt": "monodis", "completion": " --assembly {{path/to/assembly.dll}}"}
+{"prompt": "rm", "completion": " {{경로/대상/파일1 경로/대상/파일2 ...}}"}
+{"prompt": "rankmirrors", "completion": " {{[-t|--times]}} {{/etc/pacman.d/mirrorlist}}"}
+{"prompt": "doctl {{[d|databases]}}", "completion": " {{[sm|sql-mode]}} {{[g|get]}} {{database_id}}"}
+{"prompt": "pnmalias {{path/to/input.pnm}} >", "completion": " {{path/to/output.ppm}}"}
+{"prompt": "screenkey --bg-color", "completion": " \"{{#a1b2c3}}\" {{[-f|--font]}} {{Hack}} --font-color {{yellow}} --opacity {{0.8}}"}
+{"prompt": "systemd-tty-ask-password-agent", "completion": " --watch"}
+{"prompt": "pw-reserve", "completion": " {{[-h|--help]}}"}
+{"prompt": "register_new_matrix_user --config", "completion": " {{path/to/homeserver.yaml}} --admin"}
+{"prompt": "where /R {{path/to/directory}}", "completion": " {{шаблон_файла}}"}
+{"prompt": "cscript", "completion": " ospp.vbs /sethst:{{ip|nombre_host}}"}
+{"prompt": "VBoxManage", "completion": " list vms"}
+{"prompt": "dolt", "completion": " branch"}
+{"prompt": "du", "completion": " -B 32T"}
+{"prompt": "cargo locate-project", "completion": " --workspace"}
+{"prompt": "aws kinesis put-record --stream-name {{name}}", "completion": " --partition-key {{key}} --data \"$( echo \"{{my raw message}}\" | base64 )\""}
+{"prompt": "fossa", "completion": " test"}
+{"prompt": "blkdiscard --length", "completion": " {{100MB}} {{/dev/设备名}}"}
+{"prompt": "screen", "completion": " -S autoscript -X stuff 'q\\n'"}
+{"prompt": "dirbuster -e", "completion": " {{txt,html}}"}
+{"prompt": "yuy2topam -width {{值}}", "completion": " -height {{值}} {{路径/到/文件.yuy2}} > {{路径/到/文件.pam}}"}
+{"prompt": "cipher", "completion": " /d:{{경로\\대상\\파일_또는_디렉터리}}"}
+{"prompt": "cwebp {{경로/대상/이미지_파일}} -o {{경로/대상/출력파일.webp}} -resize", "completion": " {{width}} {{height}}"}
+{"prompt": "npm-why", "completion": " {{package}}"}
+{"prompt": "head {{[-c|--bytes]}} {{aantal}}", "completion": " {{pad/naar/bestand}}"}
+{"prompt": "docker exec {{[-i|--interactive]}} {{[-d|--detach]}}", "completion": " {{nome_do_contêiner}} {{comando}}"}
+{"prompt": "lsof +D", "completion": " /opt"}
+{"prompt": "fiascotopnm", "completion": " {{path/to/file.fiasco}} {{[-o|--output]}} {{output_file_basename}}"}
+{"prompt": "groupadd", "completion": " ci_jobs"}
+{"prompt": "mv", "completion": " -Force {{ruta\\al\\origen}} {{ruta\\al\\destino}}"}
+{"prompt": "sudo", "completion": " ip {{[l|link]}} {{[s|set]}} {{ethN}} mtu {{9000}}"}
+{"prompt": "cat file.txt", "completion": " | expand"}
+{"prompt": "codex \"{{your", "completion": " prompt}}\""}
+{"prompt": "git am", "completion": " {{path/to/file.patch}}"}
+{"prompt": "sudo dmesg", "completion": " {{[-l|--level]}} err"}
+{"prompt": "kdesrc-build", "completion": " --no-stop-on-failure {{구성_요소_이름}}"}
+{"prompt": "`cz` |`it:cz:de` | `it`,", "completion": " `cz`, `de`, `en"}
+{"prompt": "{{commando}} | sed", "completion": " -n '1p'"}
+{"prompt": "bluetoothctl", "completion": " connect {{mac_address}}"}
+{"prompt": "tldr reg", "completion": " {{export|import}}"}
+{"prompt": "qalc", "completion": " {{[-t|--terse]}}"}
+{"prompt": "helm install {{이름}}", "completion": " {{레포지토리_이름}}/{{차트_이름}}"}
+{"prompt": "cat {{caminho/para/arquivo1}}", "completion": " | join - {{caminho/para/arquivo2}}"}
+{"prompt": "create_ap", "completion": " {{wlan0}} {{eth0}} {{액세스_포인트_SSID}}"}
+{"prompt": "clang++", "completion": " {{源/文件/的路径.cpp}} -Wall {{[-o|--output]}} {{可执行文件}}"}
+{"prompt": "icalBuddy", "completion": " eventsFrom:{{data_inicial}} to:{{data_final}}"}
+{"prompt": "ufw deny proto {{யுடிபி}} from {{ஏதேனும்}} to {{ஏதாவது}}", "completion": " port {{8412:8500}}"}
+{"prompt": "scontrol resume", "completion": " {{job_id1,job_id2,...}}"}
+{"prompt": "restorecon -R", "completion": " -v {{path/to/directory}}"}
+{"prompt": "figlet", "completion": " -W {{input_text}}"}
+{"prompt": "sudo systemctl disable", "completion": " cron"}
+{"prompt": "prompt", "completion": " {{프롬프트}}"}
+{"prompt": "tlmgr", "completion": " remove {{패키지}}"}
+{"prompt": "ss -t state", "completion": " close-wait"}
+{"prompt": "sudo tmutil", "completion": " stopbackup"}
+{"prompt": "daemonize -l", "completion": " {{chemin/vers/le/fichier/verrou}} {{commande}} {{arguments_de_commande}}"}
+{"prompt": "yum remove", "completion": " {{paket}}"}
+{"prompt": "clang++ {{pad/naar/bron.cpp}}", "completion": " -O{{1|2|3|fast}} {{[-o|--output]}} {{pad/naar/uitvoerbaar_bestand}}"}
+{"prompt": "cgcreate", "completion": " -g {{tipo_grupo1}},{{tipo_grupo2}}:{{nome_grupo}}"}
+{"prompt": "swc", "completion": " {{경로/대상/입력_폴더}} --config-file {{경로/대상/.swcrc}}"}
+{"prompt": "ssh", "completion": " -6 user@hostname"}
+{"prompt": "mkdir", "completion": " {{direktorijum}}"}
+{"prompt": "du {{[-cLsh|--total --dereference --summarize --human-readable]}}", "completion": " $(nix-store {{[-q|--query]}} --references /nix/store/{{checksum-package-version.ext}})"}
+{"prompt": "openstack flavor", "completion": " delete {{flavor_id_or_name}}"}
+{"prompt": "reg query {{키_이름}}", "completion": " /c /e"}
+{"prompt": "grep \"{{zoekpatroon}}\"", "completion": " {{pad/naar/bestand}}"}
+{"prompt": "sudo pacman --sync", "completion": " {{நிரல்தொகுப்பு}}"}
+{"prompt": "adb logcat --pid $(adb shell", "completion": " pidof -s {{패키지}})"}
+{"prompt": "qemu-img convert -f {{vmdk}} -O", "completion": " {{qcow2}} {{경로/대상/파일/foo.vmdk}} {{경로/대상/파일/foo.qcow2}}"}
+{"prompt": "objcopy --strip-debug {{ruta/al/archivo_de_origen}}", "completion": " {{ruta/al/archivo_de_destino}}"}
+{"prompt": "lsblk {{[-e|--exclude]}}", "completion": " {{1,7,...}}"}
+{"prompt": "udisksctl info {{[-b|--block-device]}}", "completion": " {{/dev/sdX}}"}
+{"prompt": "kill", "completion": " {{identificador_del_proceso}}"}
+{"prompt": "snoop to port", "completion": " {{போர்ட்}} from host {{புரவலன்_பெயர்}}"}
+{"prompt": "avo", "completion": " {{subcomando}} --help"}
+{"prompt": "cd", "completion": " /usr/games"}
+{"prompt": "pdfdetach -save {{number}} -o {{path/to/output}}", "completion": " {{path/to/input.pdf}}"}
+{"prompt": "mv", "completion": " {{路径/到/源1 路径/到/源2 ...}} {{路径/到/已存在的目录}}"}
+{"prompt": "systemd-nspawn --boot --directory", "completion": " {{경로/대상/컨테이너_루트}}"}
+{"prompt": "sudo", "completion": " gitlab-runner verify"}
+{"prompt": "echo \"{{digraph {this -> that}", "completion": " }}\" | osage -T {{gif}} > {{경로/대상/이미지.gif}}"}
+{"prompt": "ping -W", "completion": " 10 -c 101 yahoo.com"}
+{"prompt": "transmission-remote {{호스트명}} {{[-t|--torrent]}} \"1-10,15-20\" --move", "completion": " {{/경로/대상/새_디렉토리}}"}
+{"prompt": "find . -name '*.log' -print0", "completion": " | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip"}
+{"prompt": "aws secretsmanager delete-secret", "completion": " --secret-id {{이름|arn}}"}
+{"prompt": "{{prompt}}=>", "completion": " \\g {{path/to/file_with_results}}"}
+{"prompt": "transmission-create {{[-o|--outfile]}} {{pad/naar/voorbeeld.torrent}} {{[-t|--tracker]}} {{tracker_url1}} {{[-c|--comment]}}", "completion": " {{opmerking}} {{pad/naar/bestand_of_map}}"}
+{"prompt": "mksquashfs {{path/to/file_or_directory1", "completion": " path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -comp {{gzip|lzo|lz4|xz|zstd|lzma}}"}
+{"prompt": "top -b -n 1 | tail", "completion": " -n 10"}
+{"prompt": "borg extract {{utente}}@{{host}}:{{/percorso/del/repo_o_directory}}::{{Lunedi}}", "completion": " {{percorso/della/directory_destinazione}} --exclude '{{*.ext}}'"}
+{"prompt": "gcrane {{[cp|copy]}}", "completion": " {{소스}} {{대상}}"}
+{"prompt": "cu", "completion": " --help"}
+{"prompt": "docker compose", "completion": " up {{[-d|--detach]}}"}
+{"prompt": "wc -l", "completion": " {{path/to/file}}"}
+{"prompt": "argocd app delete", "completion": " {{app_name}}"}
+{"prompt": "useradd -G", "completion": " hr newemployee"}
+{"prompt": "git bug ls \"{{검색_쿼리}}\"", "completion": " baz"}
+{"prompt": "gh run", "completion": " view --job={{job_number}}"}
+{"prompt": "ps -eo pid,ppid,cmd,%cpu --sort=-%cpu | awk", "completion": " '$4 > 10'"}
+{"prompt": "bazel", "completion": " version"}
+{"prompt": "atop", "completion": " | grep sleeping"}
+{"prompt": "dpkg", "completion": " -r {{paketname}}"}
+{"prompt": "pgbench --initialize", "completion": " --scale={{50}} {{데이터베이스_이름}}"}
+{"prompt": "pathping {{호스트명}} -h", "completion": " {{최대_홉}}"}
+{"prompt": "sudo mkfs.bcachefs {{[-L|--fs_label]}} {{볼륨_레이블}}", "completion": " {{/dev/sdX1}}"}
+{"prompt": "asnmap {{[-f|-file]}} {{targets.txt}}", "completion": " -silent"}
+{"prompt": "groupmod -n", "completion": " beta_testers beta_users"}
+{"prompt": "last", "completion": " {{[-F|--fulltimes]}} {{[-a|--hostlast]}}"}
+{"prompt": "blkid", "completion": " /dev/sdc1"}
+{"prompt": "fsadm", "completion": " check {{/dev/vg_name/lv_name}}"}
+{"prompt": "jhead", "completion": " {{path/to/image.jpg}}"}
+{"prompt": "dos2unix --{{keep-bom|add-bom|remove-bom}}", "completion": " {{ruta/al/archivo}}"}
+{"prompt": "git push", "completion": " --all {{nome_repository_remoto}}"}
+{"prompt": "htpasswd {{경로/대상/파일}}", "completion": " {{사용자명}}"}
+{"prompt": "choco", "completion": " new {{paquete}} url=\"{{url}}\" url64=\"{{url}}\""}
+{"prompt": "aws cognito-idp delete-user-pool --user-pool-id", "completion": " {{user_pool_id}}"}
+{"prompt": "audtool", "completion": " mainwin-show"}
+{"prompt": "git", "completion": " check-ref-format --normalize {{refs/head/referans_ismi}}"}
+{"prompt": "prowler", "completion": " aws"}
+{"prompt": "tldr", "completion": " {{[-p|--platform]}} coomon shuf"}
+{"prompt": "create role", "completion": " {{역할_이름}};"}
+{"prompt": "choco install {{pacchetto}}", "completion": " --version {{versione}}"}
+{"prompt": "az storage", "completion": " account delete --resource-group {{그룹_이름}} --name {{계정_이름}}"}
+{"prompt": "bore", "completion": " server"}
+{"prompt": "input", "completion": " text \"{{текст}}\""}
+{"prompt": "gcrane completion", "completion": " bash > /etc/bash_completion.d/gcrane"}
+{"prompt": "pio", "completion": " --help"}
+{"prompt": "scan-build {{command}}", "completion": " {{command_arguments}}"}
+{"prompt": "orca-c --undo-limit", "completion": " {{limit}}"}
+{"prompt": "chflags {{nohidden}}", "completion": " {{path/to/file}}"}
+{"prompt": "base64 {{[-d|--decode]}}", "completion": " {{[-i|--input]}} {{jalan/menuju/berkas}}"}
+{"prompt": "du", "completion": " -B 2G"}
+{"prompt": "cargo {{[c|check]}}", "completion": " --no-default-features"}
+{"prompt": "sudo alien", "completion": " --to-deb --install {{pfad/zu/paket}}"}
+{"prompt": "swagger-codegen generate", "completion": " -i {{swagger_파일}} -l {{언어}}"}
+{"prompt": "tlmgr", "completion": " backup {{패키지1 패키지2 ...}}"}
+{"prompt": "dot {{路径/到/输入.gv}} |", "completion": " mingle | dot -T {{png}} > {{路径/到/输出.png}}"}
+{"prompt": "chmod", "completion": " {{[-R|--recursive]}} g+w,o+w {{jalan/menuju/direktori}}"}
+{"prompt": "pamtotiff {{path/to/input_file.pam}} >", "completion": " {{path/to/output_file.tiff}}"}
+{"prompt": "dig", "completion": " google.com NAPTR"}
+{"prompt": "deno", "completion": " run --allow-net {{경로/대상/파일.ts}}"}
+{"prompt": "lnav -C", "completion": " {{path/to/log_directory}}"}
+{"prompt": "ssh-keyscan -p {{port}}", "completion": " {{server}}"}
+{"prompt": "nice -n 3 go build", "completion": " ./..."}
+{"prompt": "sudo ip {{[l|link]}} {{[s|set]}} {{interface}}", "completion": " {{up|down}}"}
+{"prompt": "ag", "completion": " foo {{[-G|--file-search-regex]}} bar"}
+{"prompt": "pbmtoescp2 {{[-re|-resolution]}}", "completion": " {{180|360|720}} {{path/to/image.pbm}} > {{path/to/output.escp2}}"}
+{"prompt": "grep {{[-Ei|--extended-regexp", "completion": " --ignore-case]}} \"{{søgemønster}}\" {{sti/til/fil}}"}
+{"prompt": "cmd", "completion": " /k {{命令}}"}
+{"prompt": "sudo apt purge git curl", "completion": " vim"}
+{"prompt": "git show", "completion": " {{rama}}~{{3}}"}
+{"prompt": "echo", "completion": " -e \"{{red}}\\n{{green}}\\n{{blue}}\" | fuzzel {{[-d|--dmenu]}}"}
+{"prompt": "fc /t {{फाइल1\\का\\पथ}}", "completion": " {{फाइल2\\का\\पथ}}"}
+{"prompt": "glab repo fork {{owner}}/{{repository}}", "completion": " {{[-c|--clone]}}"}
+{"prompt": "Remove-AppxPackage", "completion": " {{package}}"}
+{"prompt": "opkg", "completion": " files {{package}}"}
+{"prompt": "ern create-miniapp", "completion": " {{애플리케이션_이름}}"}
+{"prompt": "systemsetup -setsleep off -setrestartpowerfailure", "completion": " on -setrestartfreeze on"}
+{"prompt": "cewl {{[-d|--depth]}} 2 {{[-w|--write]}}", "completion": " {{경로/대상/단어목록.txt}} {{url}}"}
+{"prompt": "az apim", "completion": " delete --name {{이름}} --resource-group {{리소스_그룹}}"}
+{"prompt": "colorpicker", "completion": " --rgb"}
+{"prompt": "grpcurl {{grpc.server.com:443}}", "completion": " list"}
+{"prompt": "kiterunner kb convert", "completion": " {{pad/naar/woordenlijst.txt}} {{pad/naar/woordenlijst.kite}}"}
+{"prompt": "chromium", "completion": " --proxy-server=\"{{socks5://hostname:66}}\" {{example.com}}"}
+{"prompt": "{{경로/대상/factorio}}", "completion": " --create {{경로/대상/저장_파일.zip}}"}
+{"prompt": "Invoke-Item -Path", "completion": " {{ruta\\al\\directorio}}\\* -Exclude {{*palabra_clave*}}"}
+{"prompt": "top", "completion": " -o %MEM"}
+{"prompt": "sudo iptables-save", "completion": " {{[-t|--table]}} {{table}}"}
+{"prompt": "bzegrep", "completion": " --recursive \"{{검색_패턴}}\" {{경로/대상/파일}}"}
+{"prompt": "7za x {{경로/대상/압축파일.7z}}", "completion": " -so"}
+{"prompt": "nping --count {{10}}", "completion": " {{example.com}}"}
+{"prompt": "zypper remove", "completion": " {{软件包}}"}
+{"prompt": "musescore", "completion": " --export-to {{출력_파일}} {{입력_파일}}"}
+{"prompt": "umount", "completion": " /mnt/samba"}
+{"prompt": "docker", "completion": " save {{imagem}}:{{tag}} > {{caminho/para/arquivo.tar}}"}
+{"prompt": "git", "completion": " show-branch --more {{5}} {{commit|nome_ramo|riferimento}} {{commit|nome_ramo|riferimento}} {{...}}"}
+{"prompt": "woeusb --device {{path/to/windows.iso}}", "completion": " {{/dev/sdX}}"}
+{"prompt": "Install-Module", "completion": " {{module}} -Repository {{repository}}"}
+{"prompt": "input swipe {{x_pos}} {{y_pos}} {{x_pos}}", "completion": " {{y_pos}} {{duration_in_ms}}"}
+{"prompt": "tldr", "completion": " {{[-L|--language]}} {{언어_코드}} {{명령어}}"}
+{"prompt": "tac -r -s {{separatore}}", "completion": " {{percorso/del/file1 percorso/del/file2 ...}}"}
+{"prompt": "mixxx", "completion": " --fullScreen"}
+{"prompt": "sudo", "completion": " route -t add \"{{bestemming_ip_adres}}/24\" \"{{gateway_adres}}\""}
+{"prompt": "{{command}}", "completion": " | sed -fg {{path/to/script.sed}}"}
+{"prompt": "kubectl describe pods {{pod_name}}", "completion": " {{[-n|--namespace]}} {{namespace}}"}
+{"prompt": "kiwi-ng system build --description={{path/to/directory}}", "completion": " --target-dir={{path/to/directory}}"}
+{"prompt": "sc_wartsfilter -i {{경로/대상/입력.warts}}", "completion": " -o {{경로/대상/출력.warts}} -a {{2001:db8::/32}}"}
+{"prompt": "setcap -v '{{cap_net_raw}}'", "completion": " {{경로/대상/파일}}"}
+{"prompt": "robocopy {{percorso\\della\\directory_sorgente}}", "completion": " {{percorso\\della\\directory_destinazione}} /Z /R:5 /W:15"}
+{"prompt": "dircolors", "completion": " {{[-c|--c-shell]}}"}
+{"prompt": "gpg --clearsign", "completion": " {{doc.txt}}"}
+{"prompt": "find /home -mtime +7 -type", "completion": " f"}
+{"prompt": "gdb", "completion": " {{exécutable}}"}
+{"prompt": "pamdice {{[-o|-outstem]}} {{경로/대상/파일명_스템}}", "completion": " {{[-h|-height]}} {{값}} {{[-w|-width]}} {{값}} {{경로/대상/입력.ppm}}"}
+{"prompt": "whence", "completion": " -ca \"{{command}}\""}
+{"prompt": "sudo fbi {{[-t|--timeout]}}", "completion": " {{delay}} {{path/to/files/*}}"}
+{"prompt": "sudo powertop", "completion": " --html={{전력_보고서.html}}"}
+{"prompt": "chown", "completion": " jane:developers report.xlsx"}
+{"prompt": "mktorrent -c \"{{주석}}\"", "completion": " -a {{트래커_발표_URL}} -l {{21}} -o {{경로/대상/예시.torrent}} {{경로/대상/파일_또는_폴더}}"}
+{"prompt": "sudo ifconfig ens33", "completion": " -arp"}
+{"prompt": "git", "completion": " status {{[-b|--branch]}}"}
+{"prompt": "kdialog", "completion": " --warningyesnocancel \"{{메시지}}\""}
+{"prompt": "updog", "completion": " --ssl"}
+{"prompt": "octo create-release", "completion": " --project={{nombre_del_proyecto}} --packageversion={{versión}}"}
+{"prompt": "apt-get purge", "completion": " {{package}}"}
+{"prompt": "pdffonts -loc", "completion": " {{path/to/file.pdf}}"}
+{"prompt": "wc {{[-L|--max-line-length]}}", "completion": " {{path/to/file}}"}
+{"prompt": "age", "completion": " --passphrase --output {{percorso/del/file_cifrato}} {{percorso/del/file_non_cifrato}}"}
+{"prompt": "vcsh write-gitignore", "completion": " {{repository_name}}"}
+{"prompt": "plasma-apply-desktoptheme", "completion": " --help"}
+{"prompt": "journalctl", "completion": " _SYSTEMD_CGROUP=/system.slice/sshd.service"}
+{"prompt": "ip {{[a|address]}} {{[s|show]}}", "completion": " {{eth0}}"}
+{"prompt": "magick", "completion": " convert -size {{800x600}} \"xc:{{#ff0000}}\" {{ruta/a/imagen.png}}"}
+{"prompt": "watch", "completion": " whoami"}
+{"prompt": "expr match \"{{string}}\"", "completion": " '{{pattern}}'"}
+{"prompt": "snoop", "completion": " -o {{கோப்புப்_பெயர்}}"}
+{"prompt": "say", "completion": " \"{{我喜欢骑脚踏车。}}\""}
+{"prompt": "sudo nethogs {{장치1}}", "completion": " {{장치2}}"}
+{"prompt": "sui client ptb", "completion": " --transfer-objects \"[{{object_id}}]\" @{{address}}"}
+{"prompt": "sudo", "completion": " useradd {{[-s|--shell]}} {{경로/대상/셸}} {{사용자명}}"}
+{"prompt": "crane", "completion": " blob {{[-h|--help]}}"}
+{"prompt": "sudo", "completion": " alien --to-tgz {{फ़ाइल/का/पथ}}"}
+{"prompt": "envycontrol", "completion": " --help"}
+{"prompt": "mpg321 {{[-z|--shuffle]}} {{path/to/file_a|URL path/to/file_b|URL", "completion": " ...}}"}
+{"prompt": "diff", "completion": " {{[-y|--side-by-side]}} {{arquivo_antigo}} {{arquivo_novo}}"}
+{"prompt": "infection", "completion": " --show-mutations"}
+{"prompt": "rmlint -c sh:link --match-basename", "completion": " {{ruta/a/directorio}}"}
+{"prompt": "hyprpm add", "completion": " {{git_url}}"}
+{"prompt": "swupd", "completion": " search -b {{package}}"}
+{"prompt": "unshare {{[-n|--net]}}", "completion": " {{command}} {{command_arguments}}"}
+{"prompt": "msiexec /uninstall", "completion": " {{path\\to\\file}}"}
+{"prompt": "theHarvester --domain {{domain_name}} --source {{google}}", "completion": " --limit {{200}}"}
+{"prompt": "velero", "completion": " backup get"}
+{"prompt": "pacstrap -C {{path/to/pacman.conf}}", "completion": " {{path/to/new/root}} {{packages}}"}
+{"prompt": "df", "completion": " -h --output=source,fstype,used"}
+{"prompt": "mkdir", "completion": " /usr/local/src"}
+{"prompt": "immich upload --album-name \"{{Vacaciones de", "completion": " verano}}\" --recursive {{ruta/al/directorio}}"}
+{"prompt": "npm", "completion": " owner ls {{패키지_이름}}"}
+{"prompt": "ntfs-read.py", "completion": " -debug {{volume}}"}
+{"prompt": "git", "completion": " whatchanged"}
+{"prompt": "choco search", "completion": " {{consulta}} --exact"}
+{"prompt": "sudo", "completion": " btrfs subvolume snapshot {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}"}
+{"prompt": "handlr", "completion": " open {{경로/대상/파일.pdf}}"}
+{"prompt": "helm repo", "completion": " add {{레포지토리_이름}}"}
+{"prompt": "atom", "completion": " --add {{chemin/vers/fichier_ou_dossier}}"}
+{"prompt": "gleam new", "completion": " {{project_name}}"}
+{"prompt": "fnm", "completion": " list"}
+{"prompt": "gh", "completion": " workflow {{enable|disable}} {{id|workflow_name|filename.yml}}"}
+{"prompt": "whatis {{keyword1}}", "completion": " {{keyword2}}"}
+{"prompt": "sudo ifconfig", "completion": " eth0 up"}
+{"prompt": "pdfattach -replace", "completion": " {{ruta/al/archivo_original.pdf}} {{ruta/al/archivo_adjunto}} {{ruta/al/resultado.pdf}}"}
+{"prompt": "xdg-user-dirs-update --dummy-output \"{{경로/대상/실행_파일}}\" --set", "completion": " {{xdg_사용자_디렉터리}} \"{{경로/대상/폴더}}\""}
+{"prompt": "scriptlive {{ruta/al/archivo_de_timing}} {{ruta/a/typescript}}", "completion": " --divisor 2"}
+{"prompt": "ntfyme exec", "completion": " {{[-c|--cmd]}} {{명령어}}"}
+{"prompt": "[ {{villkor}} ] && {{echo", "completion": " \"true\"}} || {{echo \"false\"}}"}
+{"prompt": "tree -P", "completion": " {{directory_name}} --matchdirs --prune"}
+{"prompt": "apx subsystems rm {{[-n|--name]}} {{문자열}}", "completion": " {{[-f|--force]}}"}
+{"prompt": "npm audit", "completion": " --json"}
+{"prompt": "carp -x", "completion": " {{path/to/file.carp}}"}
+{"prompt": "driverquery", "completion": " /v"}
+{"prompt": "fmt", "completion": " {{percorso/del/file}}"}
+{"prompt": "kill", "completion": " -{{SIGUSR1}} -{{id_del_grupo}}"}
+{"prompt": "mv /media/*", "completion": " /backup/media/"}
+{"prompt": "cmark", "completion": " --validate-utf8 {{filename.md}}"}
+{"prompt": "lxc network", "completion": " attach {{network_name}} {{container_name}}"}
+{"prompt": "cargo bench", "completion": " --bins"}
+{"prompt": "ping", "completion": " -c {{jumlah}} {{host}}"}
+{"prompt": "pip install", "completion": " {{package}}=={{version}}"}
+{"prompt": "groupadd", "completion": " node_admins"}
+{"prompt": "flameshot gui", "completion": " --path {{path/to/directory}}"}
+{"prompt": "LESS='-Pmyprompt>' less", "completion": " file.txt"}
+{"prompt": "lwp-request -E -m", "completion": " {{METHOD}} {{http://example.com/some/path}}"}
+{"prompt": "manim", "completion": " {{[-pqh|--preview --quality high]}} {{路径/文件.py}} {{场景名称}}"}
+{"prompt": "sudo", "completion": " btrfs check --repair --init-csum-tree {{caminho/para/partição}}"}
+{"prompt": "kill -{{17|STOP}}", "completion": " {{process_id}}"}
+{"prompt": "sfdk", "completion": " cmake {{project}}"}
+{"prompt": "free -h -t -s 25 -c", "completion": " 7"}
+{"prompt": "az", "completion": " tag create --name {{nombre_de_etiqueta}}"}
+{"prompt": "rm", "completion": " /var/log/pm-powersave/*"}
+{"prompt": "file {{[-k|--keep-going]}}", "completion": " {{文件名}}"}
+{"prompt": "pipx", "completion": " install {{패키지}}"}
+{"prompt": "mv -v", "completion": " config /etc/"}
+{"prompt": "bash-it", "completion": " update {{stable|dev}}"}
+{"prompt": "updpkgsums", "completion": " {{[-h|--help]}}"}
+{"prompt": "doctl kubernetes cluster", "completion": " delete {{클러스터_이름}}"}
+{"prompt": "cpulimit --exe", "completion": " {{programa}} --limit {{25}}"}
+{"prompt": "gpclient connect --ignore-tls-errors", "completion": " {{vpn_게이트웨이_URL}}"}
+{"prompt": "toolbox run --distro {{fedora}} --release {{f39}}", "completion": " {{emacs}}"}
+{"prompt": "touch", "completion": " /var/log/apt/history.log"}
+{"prompt": "useradd -u 2001 -c", "completion": " 'Node.js Admin' nodeadmin"}
+{"prompt": "etcdctl get", "completion": " {{my/key}}"}
+{"prompt": "git flow", "completion": " init"}
+{"prompt": "git delta {{branch_1}}", "completion": " {{branch_2}}"}
+{"prompt": "{{명령어}} | vidir", "completion": " -"}
+{"prompt": "ip {{[-br l|-brief", "completion": " link]}}"}
+{"prompt": "xml {{[ed|edit]}} {{[-r|--rename]}}", "completion": " \"{{/xml/table/rec}}\" -v \"{{record}}\" {{path/to/input.xml|URI}}"}
+{"prompt": "eject", "completion": " {{[-d|--default]}}"}
+{"prompt": "interdiff {{[-w|--ignore-all-space]}}", "completion": " {{old_file}} {{new_file}}"}
+{"prompt": "find /var -type f -not -name \"*.gz\"", "completion": " -exec gzip {} \\;"}
+{"prompt": "postconf", "completion": " -e"}
+{"prompt": "doskey /macros", "completion": " > {{ruta\\al\\archivo_macinit}}"}
+{"prompt": "usermod", "completion": " -d /home/rootuser -m userroot"}
+{"prompt": "ppmtopj -gamma {{감마}}", "completion": " {{경로/대상/입력.ppm}} > {{경로/대상/출력.pj}}"}
+{"prompt": "chmod {{[-R|--recursive]}}", "completion": " g+w,o+w {{pfad/zu/verzeichnis}}"}
+{"prompt": "yuvtoppm {{width}}", "completion": " {{height}} {{path/to/input_file.yuv}} > {{path/to/output_file.ppm}}"}
+{"prompt": "podman", "completion": " run --name {{container_name}} {{image}}"}
+{"prompt": "dget", "completion": " {{package}}"}
+{"prompt": "bzip2", "completion": " source.cpp"}
+{"prompt": "salt", "completion": " '*.example.com' pkg.upgrade"}
+{"prompt": "cadaver", "completion": " {{https://davs.example.com/}}"}
+{"prompt": "bdfr archive {{path/to/output_directory}} {{[-s|--subreddit]}} '{{Python, all,", "completion": " mindustry}}' {{[-L|--limit]}} 10"}
+{"prompt": "sudo airmon-ng", "completion": " start {{wlan0}}"}
+{"prompt": "pkg search", "completion": " {{包名}}"}
+{"prompt": "ahost", "completion": " {{example.com}}"}
+{"prompt": "cradle", "completion": " connect {{server}}"}
+{"prompt": "more {{경로\\대상\\파일}}", "completion": " /e"}
+{"prompt": "afinfo --brief", "completion": " {{percorso/del/file}}"}
+{"prompt": "dir --hide", "completion": " {{pattern}}"}
+{"prompt": "git delete-branch {{branch_name1", "completion": " branch_name2 ...}}"}
+{"prompt": "bchunk -v {{경로/대상/이미지.bin}} {{경로/대상/이미지.cue}}", "completion": " {{경로/대상/출력}}"}
+{"prompt": "wasm-objdump --section", "completion": " '{{import}}' --details {{파일.wasm}}"}
+{"prompt": "where", "completion": " /T {{파일_패턴}}"}
+{"prompt": "find /var -type f -exec", "completion": " dirname {} \\;"}
+{"prompt": "grim", "completion": " -g \"{{$(slurp)}}\""}
+{"prompt": "unimatrix --no-bold --speed {{50}} --character-list", "completion": " {{ens}}"}
+{"prompt": "wsl --import {{發行版}} {{檔案/完整/安裝位置}}", "completion": " {{檔案/完整/distro_fs.tar}}"}
+{"prompt": "dnf", "completion": " {{[grp|group]}} remove {{group_name}}"}
+{"prompt": "findstr /i \"{{문자열1 문자열2 ...}}\"", "completion": " *"}
+{"prompt": "git bundle", "completion": " verify {{ruta/al/archivo.bundle}}"}
+{"prompt": "ssh -o", "completion": " ServerAliveInterval=60 user@hostname"}
+{"prompt": "userdel", "completion": " old_developer"}
+{"prompt": "cargo {{[b|build]}}", "completion": " --test {{nom_du_test}}"}
+{"prompt": "sudo", "completion": " pacman --upgrade {{நிரல்தொகுப்பு1.pkg.tar.zst/பாதை}} {{நிரல்தொகுப்பு2.pkg.tar.zst/பாதை}}"}
+{"prompt": "top", "completion": " -o VIRT"}
+{"prompt": "podman machine", "completion": " ssh {{이름}}"}
+{"prompt": "tlmgr update", "completion": " --list"}
+{"prompt": "abroot", "completion": " {{[-h|--help]}}"}
+{"prompt": "cp", "completion": " {{[-vr|--verbose --recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}"}
+{"prompt": "pacman -Fq", "completion": " {{bestandsnaam}}"}
+{"prompt": "sudo", "completion": " gitlab-ctl restart {{nginx}}"}
+{"prompt": "{{command}}", "completion": " | mimetype --stdin"}
+{"prompt": "llc", "completion": " -O3 {{path/to/input.ll}}"}
+{"prompt": "tune.exfat", "completion": " {{[-i|--print-serial]}} {{/dev/sdXY}}"}
+{"prompt": "7z", "completion": " x {{шлях/до/архіву.7z}}"}
+{"prompt": "touch", "completion": " /var/log/user.log"}
+{"prompt": "hping3 --flood", "completion": " --destport {{80}} --syn {{ip_o_nombre_de_servidor}}"}
+{"prompt": "filen", "completion": " download {{remote_id}} {{path/to/local_destination}}"}
+{"prompt": "pt -c", "completion": " {{foo}}"}
+{"prompt": "sudo groupadd", "completion": " {{group_name}}"}
+{"prompt": "diff-pdf {{경로/대상/a.pdf}}", "completion": " {{경로/대상/b.pdf}}"}
+{"prompt": "find /var -size +1G -exec ls -lh", "completion": " {} \\;"}
+{"prompt": "bore local {{[-t|--to]}} {{remote_server_address}} {{[-p|--port]}} {{remote_port}}", "completion": " {{local_port}}"}
+{"prompt": "git fsck", "completion": " --tags"}
+{"prompt": "git diff", "completion": " {{rama}}:{{ruta/al/archivo2}} {{ruta/al/archivo}}"}
+{"prompt": "echo \"{{&lt;a1&gt;}}\" |", "completion": " xml {{[unesc|unescape]}}"}
+{"prompt": "unrar", "completion": " x {{arquivo.rar}}"}
+{"prompt": "sc.exe", "completion": " query {{service_naam}}"}
+{"prompt": "zenity --info", "completion": " --text=\"{{¡Hola!}}\""}
+{"prompt": "env", "completion": " {{변수}}={{value}} {{프로그램}}"}
+{"prompt": "arping -c {{cuenta}}", "completion": " {{host_ip}}"}
+{"prompt": "git init --object-format", "completion": " sha256"}
+{"prompt": "logcat --regex", "completion": " {{正規表示式}}"}
+{"prompt": "sudo", "completion": " route get \"{{destination}}\""}
+{"prompt": "mkinitcpio", "completion": " --kernel {{커널_버전}} --generate {{경로/대상/initramfs.img}}"}
+{"prompt": "grub-file --is-i386-efi", "completion": " {{경로/대상/파일}}"}
+{"prompt": "gdal_contour -a {{ele}}", "completion": " -i {{100.0}} {{경로/대상/입력.tif}} {{경로/대상/출력.gpkg}}"}
+{"prompt": "umount", "completion": " /mnt/manual"}
+{"prompt": "gcc file.c", "completion": " & wait"}
+{"prompt": "swaymsg {{[-t|--type]}}", "completion": " get_inputs"}
+{"prompt": "cat {{jalan/menuju/berkas1 jalan/menuju/berkas2", "completion": " ...}} > {{jalan/menuju/berkas_tujuan}}"}
+{"prompt": "ya pub --str", "completion": " {{string_message}}"}
+{"prompt": "git shortlog", "completion": " HEAD~5..HEAD"}
+{"prompt": "find /home -user", "completion": " alice"}
+{"prompt": "sleep", "completion": " 0.001"}
+{"prompt": "tldr", "completion": " xbps-remove"}
+{"prompt": "rmdir", "completion": " {{[-p|--parents]}} {{pad/naar/map1 pad/naar/map2 ...}}"}
+{"prompt": "bvnc", "completion": " --ssh"}
+{"prompt": "pg_restore {{[-j|--jobs]}}", "completion": " {{2}} {{[-d|--dbname]}} {{db_name}} {{archive_file.dump}}"}
+{"prompt": "enum4linux -S", "completion": " {{원격_호스트}}"}
+{"prompt": "gource", "completion": " {{[-h|--help]}}"}
+{"prompt": "julia", "completion": " -e '{{julia_코드}}'"}
+{"prompt": "wsl", "completion": " --export {{发行版}} {{路径/distro_fs.tar}}"}
+{"prompt": "pulumi import cloudflare:index/workersScript:WorkersScript {{my_worker_script}}", "completion": " {{account_id/script_name}}"}
+{"prompt": "pulumi cancel", "completion": " {{[-y|--yes]}}"}
+{"prompt": "links -anonymous", "completion": " {{https://example.com}}"}
+{"prompt": "kscreen-console", "completion": " {{[-h|--help]}}"}
+{"prompt": "kdenlive", "completion": " --mlt-path {{경로/대상/폴더}}"}
+{"prompt": "ppmtoacad -8", "completion": " {{경로/대상/파일.ppm}} > {{경로/대상/파일.dxb}}"}
+{"prompt": "pamtopam < {{path/to/image.pam}} >", "completion": " {{path/to/output.pam}}"}
+{"prompt": "spicetify", "completion": " restore"}
+{"prompt": "jdupes", "completion": " {{경로/대상/폴더}}"}
+{"prompt": "pacman --deptest {{நிரல்தொகுப்பு1", "completion": " நிரல்தொகுப்பு2 ...}}"}
+{"prompt": "jenv", "completion": " enable-plugin {{插件名称}}"}
+{"prompt": "say --voice {{głos}} --rate {{słowa_na_minutę}} \"{{Przepraszam Dave, ale nie mogę Ci na", "completion": " to pozwolić.}}\""}
+{"prompt": "host -t CAA", "completion": " github.com"}
+{"prompt": "git checkout", "completion": " -"}
+{"prompt": "cd", "completion": " ~{{jmeno_uzivatele}}"}
+{"prompt": "dotenvx set", "completion": " {{key}} {{value}}"}
+{"prompt": "mysqlsh --user {{username}} --host", "completion": " {{hostname}} --port {{port}}"}
+{"prompt": "uname", "completion": " -avmpio"}
+{"prompt": "readlink", "completion": " {{[-f|--canonicalize]}} {{pad/naar/bestand}}"}
+{"prompt": "pve-firewall", "completion": " status"}
+{"prompt": "es -sort", "completion": " {{name-ascending}}"}
+{"prompt": "mashtree --numcpus {{12}}", "completion": " {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}"}
+{"prompt": "env {{[-i|--ignore-environment]}}", "completion": " {{programma}}"}
+{"prompt": "qm create {{100}} -ide0", "completion": " {{local-lvm:4}} -net0 {{e1000}} -cdrom {{local:iso/proxmox-mailgateway_2.1.iso}}"}
+{"prompt": "gh help", "completion": " {{pr}} {{create}}"}
+{"prompt": "lpadmin -p {{impressora}}", "completion": " -r {{classe}}"}
+{"prompt": "qm list", "completion": " --full 1"}
+{"prompt": "ssh-copy-id -p", "completion": " 2222 user@hostname"}
+{"prompt": "tr '[:upper:]' '[:lower:]' <", "completion": " report.txt"}
+{"prompt": "type", "completion": " {{path\\to\\file}}"}
+{"prompt": "vcpkg", "completion": " install curl"}
+{"prompt": "compseq -sequence {{경로/대상/입력_RNA.fasta}} -word", "completion": " 3 {{경로/대상/출력_파일.comp}} -nozero -frame {{1}}"}
+{"prompt": "git archive {{[-v|--verbose]}}", "completion": " HEAD"}
+{"prompt": "traceroute -T -p 22", "completion": " github.com"}
+{"prompt": "chgrp sales", "completion": " report.xlsx"}
+{"prompt": "echo {{文字}}", "completion": " | clip"}
+{"prompt": "git checkout", "completion": " {{[-t|--track]}} {{nome_remoto}}/{{nome_da_branch}}"}
+{"prompt": "par2 repair --", "completion": " {{ruta/al/archivo.par2}}"}
+{"prompt": "away", "completion": " {{[-h|--help]}}"}
+{"prompt": "share -F", "completion": " nfs -o rw,root={{hostname}} /{{path/to/directory}}"}
+{"prompt": "bpkg install", "completion": " {{패키지}}"}
+{"prompt": "cordova create", "completion": " {{경로}} {{패키지_명}} {{프로젝트_명}}"}
+{"prompt": "op inject --in-file", "completion": " {{경로/대상/입력_파일}} --out-file {{경로/대상/출력_파일}}"}
+{"prompt": "touch", "completion": " ~/projects"}
+{"prompt": "bzip2recover", "completion": " {{damaged_file.bz2}}"}
+{"prompt": "groupadd", "completion": " ci_testers"}
+{"prompt": "find", "completion": " /home -path \"*/.git\" -prune -o -type f -print"}
+{"prompt": "sudo lvm lvcreate {{[-L|--size]}}", "completion": " {{10G}} {{vg1}}"}
+{"prompt": "echo 'host", "completion": " google.com'; host google.com"}
+{"prompt": "jar tvf", "completion": " {{caminho/para/arquivo.jar}}"}
+{"prompt": "usermod", "completion": " -l rajeev_k rajeev"}
+{"prompt": "fileicon test", "completion": " {{caminho/para/arquivo_ou_diretório}}"}
+{"prompt": "gemtopnm {{path/to/file.img}} >", "completion": " {{path/to/output.pnm}}"}
+{"prompt": "pio", "completion": " device list"}
+{"prompt": "arduino-builder", "completion": " -build-path {{path/to/build_directory}}"}
+{"prompt": "jbang edit", "completion": " --open={{codium|code|eclipse|idea|netbeans|gitpod}} {{path/to/script.java}}"}
+{"prompt": "hatch new", "completion": " {{project_name}}"}
+{"prompt": "findfs", "completion": " PARTUUID={{partition_uuid}}"}
+{"prompt": "runcon {{[-t|--type]}} {{domain}}_t", "completion": " {{command}}"}
+{"prompt": "git subtree", "completion": " pull {{[-P|--prefix]}} {{path/to/directory}}/ {{repository_url}} {{branch_name}}"}
+{"prompt": "distrobox-rm", "completion": " {{nombre_del_contenedor}} --force"}
+{"prompt": "rexec {{[-P|--port]}} {{1234}}", "completion": " {{[-h|--host]}} {{원격_호스트}} {{ls -l}}"}
+{"prompt": "mv /var", "completion": " /backup/var/"}
+{"prompt": "rpm {{[-qp|--query --package]}}", "completion": " --scripts {{pakket.rpm}}"}
+{"prompt": "aws s3api put-bucket-policy --bucket {{버킷_이름}}", "completion": " --policy file://{{경로/대상/버킷_정책.json}}"}
+{"prompt": "gitwatch -r", "completion": " {{remote_name}} {{path/to/file_or_directory}}"}
+{"prompt": "journalctl -u critical-service.service --since='15", "completion": " minutes ago' -p err"}
+{"prompt": "slurmrestd -a {{인증_플러그인}} {{[호스트]:포트", "completion": " | unix:/경로/대상/소켓}}"}
+{"prompt": "latexpand --expand-bbl {{ruta/a/bibliografía.bbl}}", "completion": " --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}}"}
+{"prompt": "git", "completion": " show-ref"}
+{"prompt": "abrt-cli info", "completion": " {{problem_id}}"}
+{"prompt": "yay", "completion": " {{nom_paquet|terme_recherche}}"}
+{"prompt": "choco", "completion": " push --source {{https://push.chocolatey.org/}} --execution-timeout {{500}}"}
+{"prompt": "nodemon --exec \"{{befehl_um_skript_auszuführen}} {{argumente}}\"", "completion": " {{pfad/zu/skript}}"}
+{"prompt": "calendar", "completion": " -B {{7}}"}
+{"prompt": "huggingface-cli download --repo-type", "completion": " {{저장소_타입}} {{저장소_id}} {{파일명1 파일명2 ...}}"}
+{"prompt": "latexpand", "completion": " {{[-o|--output]}} {{path/to/output.tex}} {{path/to/file.tex}}"}
+{"prompt": "pacman", "completion": " -Q"}
+{"prompt": "pacstall", "completion": " --add-repo {{원격_저장소_위치}}"}
+{"prompt": "grep -r \"{{패턴}}\" | lychee", "completion": " -"}
+{"prompt": "zip -r", "completion": " nginx.zip /etc/nginx"}
+{"prompt": "wol", "completion": " {{[-f|--file]}} {{path/to/file}}"}
+{"prompt": "prowler azure", "completion": " {{[-s|--services]}} {{defender iam ...}}"}
+{"prompt": "dmesg", "completion": " -w"}
+{"prompt": "hyperfine '{{make target1}}' '{{make", "completion": " target2}}'"}
+{"prompt": "usermod -U", "completion": " julie"}
+{"prompt": "apm remove", "completion": " {{包名}}"}
+{"prompt": "wcurl {{[-o|--output]}} {{bar}}", "completion": " {{https://example.com/foo}}"}
+{"prompt": "sudo ifconfig", "completion": " ens33 -promisc"}
+{"prompt": "pacman", "completion": " -Qo {{filename}}"}
+{"prompt": "convmv -f {{encoding_originale}} -t {{encoding_finale}}", "completion": " {{file_input}}"}
+{"prompt": "adig", "completion": " {{example.com}}"}
+{"prompt": "ansible-lint {{[-x|--exclude-rules]}}", "completion": " {{regla1, regla2,...}} {{ruta/al/archivo_playbook}}"}
+{"prompt": "VBoxManage showvminfo --details", "completion": " {{vm_name|uuid}}"}
+{"prompt": "echo 123 |", "completion": " xclip -sel clip"}
+{"prompt": "rmdir", "completion": " ~/.config"}
+{"prompt": "cmstp", "completion": " \"{{प्रोफ़ाइल_फ़ाइल\\का\\पथ}}\""}
+{"prompt": "duplicacy", "completion": " prune -keep {{n:m}}"}
+{"prompt": "su -c", "completion": " 'chpass -e {{tempo}} {{nome_do_usuário}}'"}
+{"prompt": "bpkg install", "completion": " {{package}}"}
+{"prompt": "log", "completion": " show --predicate \"process == '{{프로세스_이름}}'\""}
+{"prompt": "gdb", "completion": " {{[-c|--core]}} {{kerndatei}} {{ausführbare_datei}}"}
+{"prompt": "nix run", "completion": " {{remote_name}}:{{owner}}/{{repo}}"}
+{"prompt": "nice -n", "completion": " 17 -q ./backup.sh"}
+{"prompt": "su", "completion": " service01"}
+{"prompt": "tldr", "completion": " choco uninstall"}
+{"prompt": "7zr", "completion": " a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}} {{ścieżka/do/archiwum.7z}}"}
+{"prompt": "arp", "completion": " -a"}
+{"prompt": "jbang {{path/to/file.java}} {{command}} {{arg1 arg2", "completion": " ...}}"}
+{"prompt": "DIST={{bullseye}} ARCH={{amd64}} gbp buildpackage -jauto -us", "completion": " -uc --git-builder={{git-pbuilder}}"}
+{"prompt": "deno install", "completion": " {{https://deno.land/std/examples/colors.ts}}"}
+{"prompt": "pushd", "completion": " -n +4"}
+{"prompt": "sudo btrfs property list", "completion": " {{ruta/al_objeto_btrfs}}"}
+{"prompt": "warp-cli", "completion": " connect"}
+{"prompt": "mtr", "completion": " --udp github.com"}
+{"prompt": "xmllint --format", "completion": " {{source_file.xml}}"}
+{"prompt": "nm", "completion": " --demangle {{ruta/al/archivo.o}}"}
+{"prompt": "fluxctl", "completion": " --k8s-fwd-ns={{namespace}} list-workloads"}
+{"prompt": "sudo pacman -Syu --noconfirm", "completion": " {{package}}"}
+{"prompt": "comp /d {{文件 1 的路径}} {{文件 2", "completion": " 的路径}}"}
+{"prompt": "cwebp {{путь/к/изображению}} -o {{путь/к/результату.webp}} -q", "completion": " {{100}}"}
+{"prompt": "zbarcam", "completion": " {{/dev/dispositivo_de_video}}"}
+{"prompt": "alias", "completion": " cwd='pwd'"}
+{"prompt": "befehl -opt1", "completion": " -opt2"}
+{"prompt": "net", "completion": " help {{하위명령}}"}
+{"prompt": "autoflake --remove-unused-variables", "completion": " --in-place {{경로/대상/파일.py}}"}
+{"prompt": "xcopy {{경로\\파일_또는_폴더}}", "completion": " {{경로\\대상\\폴더}}"}
+{"prompt": "tuxi", "completion": " -h"}
+{"prompt": "az quantum job submit {{[-g|--resource-group]}} {{ResourceGroup}} {{[-w|--workspace-name]}} {{Workspace}} {{[-l|--location]}} {{Location}} {{[-t|--target-id]}} {{Id}} --job-name {{Job}}", "completion": " --job-input-file {{QirBitcode.bc}} --job-input-format {{qir.v1}}"}
+{"prompt": "tldr", "completion": " tr"}
+{"prompt": "sudo ifconfig eth0 192.168.1.100 netmask 255.255.255.0 broadcast", "completion": " 192.168.1.255"}
+{"prompt": "diff {{[-y|--side-by-side]}} {{이전_파일명}}", "completion": " {{새_파일명}}"}
+{"prompt": "nixos-option", "completion": " {{option_key}}"}
+{"prompt": "conntrack", "completion": " --event -o timestamp"}
+{"prompt": "rmdir -p", "completion": " testdir"}
+{"prompt": "bspwm -c", "completion": " {{경로/대상/설정}}"}
+{"prompt": "apt-get remove", "completion": " {{paquete}}"}
+{"prompt": "git", "completion": " branch {{branch_name}} {{commit_hash}}"}
+{"prompt": "docker", "completion": " pull --help"}
+{"prompt": "pio test", "completion": " {{[-c|--project-conf]}} {{pad/naar/platformio.ini}}"}
+{"prompt": "httpry", "completion": " {{eth0}} -b {{path/to/file.pcap}}"}
+{"prompt": "aws ecr batch-delete-image --repository-name {{repository}}", "completion": " --image-ids imageTag={{latest}}"}
+{"prompt": "rm", "completion": " -rf backup"}
+{"prompt": "findstr /i \"{{स्ट्रिंग1", "completion": " स्ट्रिंग2 ...}}\" *\""}
+{"prompt": "airshare --file-path", "completion": " {{code}}"}
+{"prompt": "javac -d {{路径/到/目录}}", "completion": " {{文件名.java}}"}
+{"prompt": "st", "completion": " {{[-m|--mean]}} {{path/to/file}}"}
+{"prompt": "rexec {{[-P|--port]}} {{1234}} {{[-h|--host]}} {{remote_host}} {{ls", "completion": " -l}}"}
+{"prompt": "dirb {{https://example.org}} -a {{user_agent_string}}", "completion": " -c {{cookie_string}}"}
+{"prompt": "hledger", "completion": " {{[bs|balancesheet]}} {{[-E|--empty]}} {{[-t|--tree]}}"}
+{"prompt": "pio access revoke {{gebruikersnaam}}", "completion": " {{bron_urn}}"}
+{"prompt": "bup -d", "completion": " {{저장소/의/경로}} init"}
+{"prompt": "sudo nixos-rebuild switch", "completion": " {{[-p|--profile-name]}} {{name}}"}
+{"prompt": "emacsclient", "completion": " {{pfad/zu/datei}}"}
+{"prompt": "idnits", "completion": " --nitcount {{path/to/file.txt}}"}
+{"prompt": "jbang edit", "completion": " --open={{codium|code|eclipse|idea|netbeans|gitpod}} {{路径/到/脚本.java}}"}
+{"prompt": "pio platform install", "completion": " {{플랫폼}}"}
+{"prompt": "ldapsearch {{[-D|--bindDN]}} '{{관리자_DN}}' {{[-w|--bindPassword]}} '{{비밀번호}}' {{[-h|--hostname]}} {{ldap_호스트}} '(&({{memberOf=group1}})({{memberOf=group2}})(!({{memberOf=group3}})))'", "completion": " displayName"}
+{"prompt": "apropos {{[-l|--long]}}", "completion": " {{regex}}"}
+{"prompt": "setfile -d \"{{MM/DD/YYYY HH:MM:SS}}\" {{path/to/file1", "completion": " path/to/file2 ...}}"}
+{"prompt": "stdbuf {{[-i|--input]}}", "completion": " 512K {{commando}}"}
+{"prompt": "aws-google-auth -u {{beispiel@beispiel.com}} -I {{$GOOGLE_IDP_ID}}", "completion": " -S {{$GOOGLE_SP_ID}} -d {{3600}} -a --resolve-aliases"}
+{"prompt": "mv --preserve=mode", "completion": " * /tmp/"}
+{"prompt": "qmrestore {{path/to/vzdump-qemu-100.vma.lzo}}", "completion": " {{100}} --force true"}
+{"prompt": "gau --providers", "completion": " {{wayback|commoncrawl|otx|urlscan}} {{ejemplo.com}}"}
+{"prompt": "aws glue", "completion": " start-trigger --name {{트리거_이름}}"}
+{"prompt": "ls |", "completion": " xcowsay"}
+{"prompt": "{{commando}} |", "completion": " sed -fg {{pad/naar/script.sed}}"}
+{"prompt": "git log", "completion": " {{[-i|--regexp-ignore-case]}} --grep {{chaine_recherché}}"}
+{"prompt": "yum -y install", "completion": " {{paquet}}"}
+{"prompt": "flite", "completion": " -voice {{file://경로/대상/파일이름.flitevox|url}} -f {{경로/대상/파일.txt}} -o {{츨력파일.wav}}"}
+{"prompt": "adb -s {{serienummer}}", "completion": " install {{pad/naar/bestand.apk}}"}
+{"prompt": "arch -x86_64", "completion": " \"{{commando}}\""}
+{"prompt": "mvn", "completion": " install"}
+{"prompt": "gh codespace", "completion": " delete"}
+{"prompt": "tldr", "completion": " rpcmap.py"}
+{"prompt": "csc /reference:{{percorso/della/libreria.dll}}", "completion": " {{percorso/del/file_input.cs}}"}
+{"prompt": "ntpctl -s", "completion": " {{[p|peers]}}"}
+{"prompt": "aws sns create-platform-endpoint --platform-application-arn", "completion": " {{platform_application_ARN}} --token {{token}}"}
+{"prompt": "qrencode", "completion": " -t ansiutf8 {{字符串}}"}
+{"prompt": "collectd", "completion": " -P {{경로/대상/파일}}"}
+{"prompt": "xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}}", "completion": " /o"}
+{"prompt": "ping -s 512 -c 13", "completion": " google.com"}
+{"prompt": "pulseaudio", "completion": " {{[-k|--kill]}}"}
+{"prompt": "crane validate", "completion": " {{[-h|--help]}}"}
+{"prompt": "vim +':%s/foo/bar/g'", "completion": " +wq file.txt"}
+{"prompt": "wol {{[-v|--verbose]}}", "completion": " {{MAC_주소}}"}
+{"prompt": "chezmoi", "completion": " re-add {{경로/대상/도트파일1 경로/대상/도트파일2 ...}}"}
+{"prompt": "QOwnNotes", "completion": " --session {{prueba}}"}
+{"prompt": "afconvert -X{{0..7}} {{caminho/para/arquivo_de_entrada}} {{caminho/para/arquivo_de_saida1", "completion": " caminho/para/arquivo_de_saida2 ...}}"}
+{"prompt": "docker commit {{[-c|--change]}} \"ENV {{name}}={{value}}\"", "completion": " {{container}} {{image}}:{{tag}}"}
+{"prompt": "sfdk", "completion": " emulator exec {{emulator}}"}
+{"prompt": "localectl list-x11-keymap-options |", "completion": " grep grp:"}
+{"prompt": "vgs", "completion": " -v"}
+{"prompt": "rsync {{[-r|--recursive]}}", "completion": " {{path/to/source}}/ {{path/to/destination}}"}
+{"prompt": "secretsdump.py -sam {{pad/naar/SAM}}", "completion": " -system {{pad/naar/SYSTEM}}"}
+{"prompt": "su", "completion": " appadmin"}
+{"prompt": "pip", "completion": " uninstall {{paquet}}"}
+{"prompt": "arping -I", "completion": " {{interface}} {{host_ip}}"}
+{"prompt": "scd \"{{pattern1 pattern2", "completion": " ...}}\""}
+{"prompt": "kwallet-query {{kdewallet}}", "completion": " {{[-l|--list-entries]}}"}
+{"prompt": "crane rebase", "completion": " --old_base {{image_naam}}"}
+{"prompt": "cd", "completion": " /var/log/fsck"}
+{"prompt": "basename", "completion": " {{chemin/vers/fichier}}"}
+{"prompt": "dillo {{[-g|--geometry]}}", "completion": " {{width}}x{{height}}+{{x_position}}+{{y_position}}"}
+{"prompt": "az apim update --name {{nombre}}", "completion": " --resource-group {{grupo_de_recursos}}"}
+{"prompt": "hello", "completion": " {{[-g|--greeting]}} \"{{인사말_텍스트}}\""}
+{"prompt": "fold {{[-b|--bytes]}}", "completion": " {{[-w|--width]}} {{바이트_단위_폭}} {{경로/대상/파일}}"}
+{"prompt": "xfce4-terminal", "completion": " --command \"{{command_with_args}}\" --hold"}
+{"prompt": "a2ping --nohires", "completion": " {{文件}}"}
+{"prompt": "zip -r -{{0..9}} {{шлях/до/архіву.zip}}", "completion": " {{шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 ...}}"}
+{"prompt": "clang++ {{pfad/zu/quelldatei.cpp}}", "completion": " -Wall {{[-o|--output]}} {{pfad/zu/binärdatei}}"}
+{"prompt": "cradle sql", "completion": " populate"}
+{"prompt": "bfs", "completion": " {{ruta_raíz}} -path '{{**/ruta/**/*.ext}}' -or -name '{{*patrón*}}'"}
+{"prompt": "protonvpn {{[c|connect]}}", "completion": " {{[-r|--random]}} -p {{udp|tcp}}"}
+{"prompt": "m4b-tool merge", "completion": " {{ruta/a/directorio_de_entrada}} --output-file={{ruta/a/fusionado.m4b}}"}
+{"prompt": "sudo tar xzf file.tar.gz", "completion": " -C /opt"}
+{"prompt": "bear --verbose", "completion": " -- {{make}}"}
+{"prompt": "ufraw-batch --embedded-image", "completion": " {{input_file(s)}}"}
+{"prompt": "rmlint", "completion": " {{[-c|--config]}} sh:link {{[-b|--match-basename]}} {{path/to/directory}}"}
+{"prompt": "dm-tool", "completion": " switch-to-greeter"}
+{"prompt": "docker load", "completion": " {{[-i|--input]}} {{경로/대상/이미지_파일.tar}}"}
+{"prompt": "sudo", "completion": " wipefs --all --force {{/dev/sdX}}"}
+{"prompt": "asdf set {{软件包名}}", "completion": " {{版本}}"}
+{"prompt": "bash", "completion": " {{경로/대상/스크립트.sh}}"}
+{"prompt": "mpijavac", "completion": " {{path/to/source_file.java}} --showme"}
+{"prompt": "{{command}} |&", "completion": " {{command}}"}
+{"prompt": "comp", "completion": " {{jalan\\menuju\\berkas1}} {{jalan\\menuju\\berkas2}}"}
+{"prompt": "git format-patch", "completion": " {{commit_1}}..{{commit_2}}"}
+{"prompt": "pabcnetcclear /Output:{{경로\\대상\\파일.exe}}", "completion": " {{경로\\대상\\소스_파일.pas}}"}
+{"prompt": "qm", "completion": " {{[mt|mtunnel]}}"}
+{"prompt": "w | awk '{print $1}'", "completion": " | xargs -I {} getent passwd {} | cut -d: -f7"}
+{"prompt": "echo \"example\" | tee", "completion": " {{/dev/tty}} | {{xargs printf \"[%s]\"}}"}
+{"prompt": "standard-version", "completion": " --infile {{경로/대상/파일.md}}"}
+{"prompt": "pdfjam {{파일들...}}", "completion": " 1 --outfile {{경로/대상/출력_파일.pdf}}"}
+{"prompt": "clang-format", "completion": " {{경로/대상/파일}}"}
+{"prompt": "sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{path/to/new_home}}", "completion": " {{username}}"}
+{"prompt": "gcrane", "completion": " completion {{셸_이름}}"}
+{"prompt": "terraform fmt", "completion": " -diff"}
+{"prompt": "reflac", "completion": " {{path/to/directory}}"}
+{"prompt": "nsenter {{[-t|--target]}} {{pid}} {{[-a|--all]}} {{command}}", "completion": " {{command_arguments}}"}
+{"prompt": "nohup {{command}} {{argument1", "completion": " argument2 ...}} &"}
+{"prompt": "sort {{pad/naar/bestand}} |", "completion": " uniq"}
+{"prompt": "pabcnetcclear /SearchDir:{{ruta\\al\\directorio}}", "completion": " {{ruta\\al\\archivo_fuente.pas}}"}
+{"prompt": "mtr --no-dns", "completion": " {{example.com}}"}
+{"prompt": "bundle exec", "completion": " {{command}} {{arguments}}"}
+{"prompt": "zip bin.zip", "completion": " /usr/bin/*"}
+{"prompt": "mysqld", "completion": " --log={{path/to/file.log}}"}
+{"prompt": "rake", "completion": " {{작업}}"}
+{"prompt": "watch {{[-d|--differences]}}", "completion": " {{df}}"}
+{"prompt": "ansible-inventory --list {{[-i|--inventory-file]}}", "completion": " {{path/to/file_or_script_or_directory}}"}
+{"prompt": "sudo tlmgr", "completion": " repository set {{path|url|tag}}#{{tag}} {{path|url|tag}}#{{tag}} {{...}}"}
+{"prompt": "retry --times={{n}}", "completion": " {{명령}}"}
+{"prompt": "yard", "completion": " --one-file"}
+{"prompt": "tic", "completion": " -c {{경로/대상/터미널.info}}"}
+{"prompt": "npm ls", "completion": " {{[-a|--all]}}"}
+{"prompt": "aurman --remove --recursive", "completion": " --nosave {{paquete}}"}
+{"prompt": "shred", "completion": " {{경로/대상/파일}}"}
+{"prompt": "npm doctor", "completion": " versions"}
+{"prompt": "if {{condition}} ({{echo Condition is true}}) else ({{echo Condition", "completion": " is false}})"}
+{"prompt": "asciiart", "completion": " --color {{chemin/vers/image.jpg}}"}
+{"prompt": "pnmremap {{[-ma|-mapfile]}} {{path/to/palette_file.ppm}}", "completion": " {{[-fs|-floyd]}} {{path/to/input.pnm}} > {{path/to/output.pnm}}"}
+{"prompt": "iwinfo", "completion": " {{interface}} freqlist"}
+{"prompt": "input swipe", "completion": " {{x_inicio}} {{y_inicio}} {{x_fim}} {{y_fim}} {{duração_em_ms}}"}
+{"prompt": "mkfs.fat -n", "completion": " {{volume_name}} {{/dev/sdXY}}"}
+{"prompt": "chromium", "completion": " --user-data-dir={{경로/대상/디렉토리}} --disable-web-security"}
+{"prompt": "fluidsynth {{[-a|--audio-driver]}} {{pipewire|pulseaudio}}", "completion": " {{path/to/soundfont.sf2}} {{path/to/file.midi}}"}
+{"prompt": "autopkgtest --test-name={{nombre_de_prueba}} --", "completion": " {{null}}"}
+{"prompt": "hledger import", "completion": " {{path/to/bank1.csv}} {{path/to/bank2.csv}} --dry-run"}
+{"prompt": "animdl", "completion": " download {{anime_title}}"}
+{"prompt": "task", "completion": " list due.before:{{주말}}"}
+{"prompt": "{{result_variable_name}}=\"$(whiptail --title \"{{title}}\" --inputbox \"{{message}}\" {{height_in_chars}} {{width_in_chars}} {{default_text}} 3>&1 1>&2", "completion": " 2>&3)\""}
+{"prompt": "bundle update --patch {{gem_이름1}}", "completion": " {{gem_이름2}}"}
+{"prompt": "echo \"{{content}}\" | mailx", "completion": " {{[-s|--subject]}} \"{{subject}}\" {{to_addr}}"}
+{"prompt": "gsettings", "completion": " range {{org.example.schema}} {{example-key}}"}
+{"prompt": "ls", "completion": " {{[-la|-l --all]}}"}
+{"prompt": "mount.cifs", "completion": " -o user={{username}} //{{server}}/{{share_name}} {{mountpoint}}"}
+{"prompt": "ping -c {{count}}", "completion": " {{host}}"}
+{"prompt": "sonar-scanner", "completion": " -D{{project.settings=myproject.properties}}"}
+{"prompt": "grep {{[-F|--fixed-strings]}}", "completion": " \"{{eksakt_streng}}\" {{sti/til/fil}}"}
+{"prompt": "doctl databases", "completion": " {{명령어}} --access-token {{액세스_토큰}}"}
+{"prompt": "qpdf --empty --pages {{路径/到/文件1.pdf}} {{1,6-8}} {{路径/到/文件2.pdf}} {{3,4,5}} --", "completion": " {{路径/到/输出.pdf}}"}
+{"prompt": "30 2 * * Fri", "completion": " {{/caminho/absoluto/para/script.sh}}"}
+{"prompt": "theHarvester --domain {{nombre_de_dominio}} --source {{google}}", "completion": " --limit {{200}}"}
+{"prompt": "gh release", "completion": " list"}
+{"prompt": "tldr", "completion": " copr-cli"}
+{"prompt": "jj split {{[-r|--revision]}} {{revision}} {{[-B|--insert-before]}} {{revset}}", "completion": " {{[-A|--insert-after]}} {{revset}}"}
+{"prompt": "flatpak remote-add", "completion": " --if-not-exists {{ரிமோட்_பெயர்}} {{ரிமோட்_முகவரி}}"}
+{"prompt": "apm upgrade", "completion": " {{nombre_de_paquete}}"}
+{"prompt": "systemd-tmpfiles", "completion": " --remove"}
+{"prompt": "man", "completion": " ss"}
+{"prompt": "Get-Alias {{abc}}* -Exclude", "completion": " *{{def}}"}
+{"prompt": "checksec", "completion": " --kernel"}
+{"prompt": "swaylock", "completion": " --config {{경로/대상/설정}}"}
+{"prompt": "eselect profile set", "completion": " {{이름|번호}}"}
+{"prompt": "touch", "completion": " ~/include"}
+{"prompt": "medusa", "completion": " -d"}
+{"prompt": "dust --number-of-lines", "completion": " 30"}
+{"prompt": "sudo", "completion": " bclm write {{77}}"}
+{"prompt": "ikaros auto-install", "completion": " {{장치}}"}
+{"prompt": "clang-tidy {{path/to/file.cpp}}", "completion": " -checks={{-*,cppcoreguidelines-*}}"}
+{"prompt": "atool", "completion": " {{[-l|--list]}} {{[-p|--pager]}} {{large_archive.tar.bz2}}"}
+{"prompt": "cli53 {{rc|rrcreate}} {{도메인주소.com}} {{'www 300 A", "completion": " 150.130.110.1'}}"}
+{"prompt": "rustc -g", "completion": " {{path/to/main.rs}}"}
+{"prompt": "starship", "completion": " bug-report"}
+{"prompt": "jar -xvf", "completion": " {{file.jar}}"}
+{"prompt": "{{bash}} <Intro>", "completion": " suspend"}
+{"prompt": "git check-ignore --stdin <", "completion": " {{chemin/vers/fichier_annexe}}"}
+{"prompt": "pnpm audit", "completion": " --no-optional"}
+{"prompt": "dexter auth -i {{id-client}} -s {{segreto-client}} --kube-config", "completion": " {{percorso/della/configurazione}}"}
+{"prompt": "host -t NS yahoo.com", "completion": " | awk '{print $4}'"}
+{"prompt": "rabbitmqctl", "completion": " help {{command}}"}
+{"prompt": "i3lock {{[-c|--color]}}", "completion": " {{0000ff}}"}
+{"prompt": "cp", "completion": " -a -i * /tmp/"}
+{"prompt": "nmcli connection down uuid", "completion": " {{uuid}}"}
+{"prompt": "lzop", "completion": " {{path/to/file}}"}
+{"prompt": "fdisk -l", "completion": " /dev/sdw"}
+{"prompt": "age,workclass,education,marital-status,occupation,race,gender,hours-per-week,native-country,income 39, State-gov, Bachelors, Never-married, Adm-clerical, White, Male, 40, United-States, <=50K 50, Self-emp-not-inc, Bachelors, Married-civ-spouse, Exec-managerial, White,", "completion": " Male, 13, United-States, <=50K 38, Private, HS-grad, Divorced, Handlers-cleaners, White, Male, 40, United-States, <=50K 53, Private, 11th, Married-civ-spouse, Handlers-cleaners, Black, Male, 40, United-States, <=50K researcher@data:~/data$"}
+{"prompt": "watch -n", "completion": " 5 'ps -eo pid,rss,cmd | grep webserver'"}
+{"prompt": "sudo certbot --webroot", "completion": " {{[-w|--webroot-path]}} {{경로/대상/웹루트}} {{[-d|--domain]}} {{서브도메인.example.com}} --test-cert"}
+{"prompt": "rails server -p", "completion": " \"{{포트}}\""}
+{"prompt": "git branch {{[-d|--delete]}}", "completion": " {{branch_naam}}"}
+{"prompt": "go tool link", "completion": " {{경로/대상/main.o}}"}
+{"prompt": "git tag {{nome_da_tag}}", "completion": " {{commit}}"}
+{"prompt": "paste -d {{分隔符}}", "completion": " {{路径/到/文件1}} {{路径/到/文件2}}"}
+{"prompt": "chown", "completion": " gamer game.log"}
+{"prompt": "gzip", "completion": " yourfile.txt"}
+{"prompt": "sudo", "completion": " nixos-container run {{container_name}} -- {{command}} {{command_arguments}}"}
+{"prompt": "yadm", "completion": " clone {{远程_仓库_位置}} --bootstrap"}
+{"prompt": "pkgin", "completion": " search {{कीवर्ड}}"}
+{"prompt": "dust", "completion": " --ignore-directory {{파일_또는_디렉터리_이름}}"}
+{"prompt": "pdftohtml", "completion": " -xml {{경로/대상/파일.pdf}} {{경로/대상/출력_파일.xml}}"}
+{"prompt": "apk del", "completion": " {{软件包}}"}
+{"prompt": "gzip", "completion": " {{caminho_para_arquivo}}"}
+{"prompt": "exec -c", "completion": " {{commando -with -flags}}"}
+{"prompt": "glab mr checkout", "completion": " {{mr_번호}}"}
+{"prompt": "eww", "completion": " logs"}
+{"prompt": "gzip", "completion": " style.css"}
+{"prompt": "pamcomp {{[-va|-valign]}}", "completion": " {{top|middle|bottom|above|below}} {{[-y|-yoff]}} {{y_offset}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}"}
+{"prompt": "{{find /var/log", "completion": " -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{경로/대상/타겟_디렉터리}}"}
+{"prompt": "tar xf", "completion": " {{chemin/vers/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{répertoire}}"}
+{"prompt": "gdc", "completion": " -nostdlib"}
+{"prompt": "docker", "completion": " logs {{container_name}}"}
+{"prompt": "conntrack", "completion": " {{[-L|--dump]}}"}
+{"prompt": "'{{문자열}}' |", "completion": " Test-Json"}
+{"prompt": "choco source disable --name", "completion": " {{name}}"}
+{"prompt": "joe", "completion": " -rdonly {{路径/到/文件}}"}
+{"prompt": "curl", "completion": " -o 'file_#1.txt' http://example.com/files/{1,2,3}.txt"}
+{"prompt": "hub", "completion": " issue list --limit {{10}} --labels \"{{bug}}\""}
+{"prompt": "pcdovtoppm {{[-m|-maxwidth]}} {{width}} {{[-s|-size]}}", "completion": " {{size}} {{path/to/file.pcd}} > {{path/to/output.ppm}}"}
+{"prompt": "pipwin install", "completion": " {{paquete}}"}
+{"prompt": "choco new {{paket_name}} --output-directory", "completion": " {{pfad/zu/verzeichnis}}"}
+{"prompt": "hyprctl", "completion": " devices"}
+{"prompt": "conda", "completion": " install --upgrade {{패키지}}"}
+{"prompt": "lpr -o", "completion": " number-up={{2|4|6|9|16}} {{path/to/file}}"}
+{"prompt": "7za a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}}", "completion": " {{ścieżka/do/archiwum.7z}}"}
+{"prompt": "vagrant box", "completion": " list"}
+{"prompt": "pyenv install", "completion": " --list"}
+{"prompt": "cloc --diff {{/디렉토리/첫번째}}", "completion": " {{/디렉토리/두번째}}"}
+{"prompt": "crontab -e #", "completion": " MAILTO='user@example.com'"}
+{"prompt": "strace {{[-f|--follow-forks]}} -e", "completion": " trace=network {{[-o|--output]}} {{trace.txt}} {{program}}"}
+{"prompt": "dir", "completion": " {{flash}}:"}
+{"prompt": "git", "completion": " switch {{[-c|--create]}} {{브랜치_이름}}"}
+{"prompt": "ng generate", "completion": " directive {{nombre_del_directivo}}"}
+{"prompt": "sudo", "completion": " btrfs filesystem du --summarize {{指向目录的路径}}"}
+{"prompt": "git", "completion": " cola --repo {{경로/대상/git-저장소}}"}
+{"prompt": "pkg", "completion": " uninstall {{पैकेज}}"}
+{"prompt": "gzip", "completion": " {{[-v|--verbose]}} {{[-d|--decompress]}} {{경로/대상/파일.gz}}"}
+{"prompt": "quilt", "completion": " pop -a"}
+{"prompt": "sudo snap", "completion": " refresh"}
+{"prompt": "passwd", "completion": " sam"}
+{"prompt": "git ignore", "completion": " list"}
+{"prompt": "wrangler", "completion": " init {{프로젝트_이름}}"}
+{"prompt": "hashcat --hash-type {{哈希类型id}} --attack-mode", "completion": " {{3}} {{哈希值}} \"{{?d?d?d?d}}\""}
+{"prompt": "smbcacls //{{server}}/{{share}} {{path/to/file}} --user", "completion": " {{username}} --workgroup {{workgroup}}"}
+{"prompt": "sudo", "completion": " journalctl --vacuum-time=1d"}
+{"prompt": "rails", "completion": " generate"}
+{"prompt": "sudo pacman --sync", "completion": " --refresh --sysupgrade"}
+{"prompt": "pr {{[-m|--merge]}} {{[-T|--omit-pagination]}}", "completion": " {{pad/naar/bestand1 pad/naar/bestand2 ...}}"}
+{"prompt": "watch {{[-n|--interval]}} {{3}} \"{{ps aux | grep", "completion": " node}}\""}
+{"prompt": "distrobox-export --bin {{caminho/para/binário}}", "completion": " --export-path {{caminho/para/binário_no_host}}"}
+{"prompt": "dotnet tool install", "completion": " --global {{dotnetsay}}"}
+{"prompt": "locate", "completion": " '*/{{bestandsnaam}}'"}
+{"prompt": "gifsicle {{[-b|--batch]}} {{path/to/input.gif}}", "completion": " {{[-U|--unoptimize]}}"}
+{"prompt": "feh", "completion": " --bg-{{center|fill|max|scale|tile}} {{path/to/image}}"}
+{"prompt": "ufraw-batch", "completion": " --embedded-image {{（或多个）输入文件}}"}
+{"prompt": "git show-branch", "completion": " {{브랜치_이름1|참조1|커밋1 브랜치_이름2|참조2|커밋2 ...}}"}
+{"prompt": "rsync {{jalan/menuju/sumber}}", "completion": " {{jalan/menuju/tujuan}}"}
+{"prompt": "clip-view", "completion": " --version"}
+{"prompt": "mount -t cifs //192.168.1.5/data", "completion": " /mnt/data -o user=admin"}
+{"prompt": "VBoxManage controlvm {{uuid|vm_이름}}", "completion": " poweroff"}
+{"prompt": "git submodule foreach", "completion": " git pull"}
+{"prompt": "lsof", "completion": " -i udp"}
+{"prompt": "eselect news list", "completion": " {{all|new}}"}
+{"prompt": "qm", "completion": " {{[co|config]}} --current {{true}} {{vm_id}}"}
+{"prompt": "cat", "completion": " file.txt | column -t"}
+{"prompt": "jbang init", "completion": " --template={{cli}} {{ruta/al/archivo.java}}"}
+{"prompt": "airdecap-ng -b {{ap_mac}}", "completion": " {{pad/naar/pakketbestand.cap}}"}
+{"prompt": "tldr", "completion": " pkg_info"}
+{"prompt": "tldr", "completion": " {{[-p|--platform]}} linux rlogin"}
+{"prompt": "kdenlive", "completion": " --mlt-log {{verbose|debug}}"}
+{"prompt": "sudo dd if=/path/to/image.iso of=/dev/sdb", "completion": " bs=4M status=progress"}
+{"prompt": "history", "completion": " | wc -l"}
+{"prompt": "dvc", "completion": " add {{path/to/directory}}"}
+{"prompt": "sudo nvram", "completion": " -d {{이름}}"}
+{"prompt": "distrobox-rm", "completion": " {{nome_do_contêiner}}"}
+{"prompt": "docker secret create", "completion": " {{secret_name}} {{path/to/file}}"}
+{"prompt": "tldr", "completion": " ptpython"}
+{"prompt": "openstack network show", "completion": " {{network_id_or_name}}"}
+{"prompt": "crane append {{[-t|--new_tag]}}", "completion": " {{태그_이름}}"}
+{"prompt": "fluxctl", "completion": " list-images"}
+{"prompt": "dig google.com", "completion": " +noquestion"}
+{"prompt": "ss", "completion": " -a -A 'all,!tcp'"}
+{"prompt": "scrapy", "completion": " crawl {{スパイダー名}}"}
+{"prompt": "abduco -A {{navn}}", "completion": " {{bash}}"}
+{"prompt": "gunzip", "completion": " --stdout {{아카이브.tar.gz}} > {{아카이브.tar}}"}
+{"prompt": "dd bs={{100}} count={{1}} if=/dev/urandom", "completion": " of={{경로/대상/임의의_파일}}"}
+{"prompt": "pinky", "completion": " {{gebruiker}} -lh"}
+{"prompt": "vgcfgbackup {{[-v|--verbose]}}", "completion": " {{vg_name}}"}
+{"prompt": "fdroid", "completion": " install {{app_id}}"}
+{"prompt": "zgrep {{[-e|--regexp]}} \"{{pattern_1}}\" {{[-e|--regexp]}}", "completion": " \"{{pattern_2}}\" {{path/to/compressed/file}}"}
+{"prompt": "chcpu -d", "completion": " {{1,3}}"}
+{"prompt": "dropbearkey", "completion": " -t {{rsa}} -s {{4096}} -f {{경로/대상/키_파일}}"}
+{"prompt": "ghcid", "completion": " --command \"{{stack ghci Main.hs}}\""}
+{"prompt": "ani-cli", "completion": " -v \"{{动漫名称}}\""}
+{"prompt": "qm", "completion": " wait {{가상_머신_ID}}"}
+{"prompt": "diff3", "completion": " --show-all {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} {{caminho/para/arquivo3}}"}
+{"prompt": "<:>{{bmark|bdelete}}", "completion": " {{nome_do_marcador}}<Enter>"}
+{"prompt": "clamscan --move", "completion": " {{ruta/al/directorio_de_cuarentena}}"}
+{"prompt": "lsar {{[-j|--json]}}", "completion": " {{path/to/archive}}"}
+{"prompt": "git", "completion": " reset-file {{경로/대상/파일}}"}
+{"prompt": "crypto key", "completion": " zeroize"}
+{"prompt": "parted /dev/sdg align-check optimal", "completion": " 1"}
+{"prompt": "xcodes", "completion": " runtimes {{download|install}} \"{{iOS|watchOS|tvOS|visionOS}} {{runtime_version}}\""}
+{"prompt": "choco", "completion": " feature list"}
+{"prompt": "sudo iptables {{[-D|--delete]}}", "completion": " {{catena}} {{numero_di_linea_della_regola}}"}
+{"prompt": "mas", "completion": " install {{숫자_제품_ID}}"}
+{"prompt": "git archive", "completion": " {{[-v|--verbose]}} HEAD"}
+{"prompt": "duti -s", "completion": " {{com.apple.Finder}} \"{{ftp}}\""}
+{"prompt": "fold", "completion": " {{pad/naar/bestand}}"}
+{"prompt": "pipes.sh -f", "completion": " {{20..100}}"}
+{"prompt": "pm list packages", "completion": " -s"}
+{"prompt": "ipaggmanip", "completion": " {{[-P|--posterize]}} {{path/to/file}}"}
+{"prompt": "git psykorebase", "completion": " {{upstream_branch}} {{target_branch}}"}
+{"prompt": "msedge", "completion": " {{https://example.com|jalan/menuju/berkas.html}}"}
+{"prompt": "toilet", "completion": " {{input_text}} {{[-F|--filter]}} {{filter_name}}"}
+{"prompt": "vgremove", "completion": " {{[-f|--force]}} {{volume_group}}"}
+{"prompt": "dircolors", "completion": " {{path/to/file}}"}
+{"prompt": "tofu", "completion": " plan -target {{resource_type.resource_name[instance index]}}"}
+{"prompt": "find /srv -type", "completion": " f -name \"*.conf\" -exec cp {} /backup/ \\;"}
+{"prompt": "zip files.zip example.py", "completion": " data.csv"}
+{"prompt": "swaybg --image", "completion": " {{경로/대상/이미지}}"}
+{"prompt": "xprop -font", "completion": " \"{{폰트_이름}}\" POINT_SIZE"}
+{"prompt": "ipconfig /renew", "completion": " {{адаптер}}"}
+{"prompt": "git", "completion": " ls-tree {{nom_de_branche}}"}
+{"prompt": "xidel {{https://www.google.com/search?q=test}} {{[-e|--extract]}} \"//a/extract(@href,", "completion": " 'url[?]q=([^&]+)&', 1)[. != '']\""}
+{"prompt": "tar czf", "completion": " {{jalan/menuju/target.tar.gz}} {{[-C|--directory]}} {{jalan/menuju/direktori}} ."}
+{"prompt": "umount", "completion": " /mnt/vfat"}
+{"prompt": "sudo apache2ctl", "completion": " start"}
+{"prompt": "ls -R", "completion": " /var/www"}
+{"prompt": "VBoxManage", "completion": " createvm --name {{vm_이름}} --basefolder {{경로/대상/폴더}}"}
+{"prompt": "watch -n 5 'curl -s -o /dev/null -w", "completion": " \"%{http_code}\" https://www.example.com && echo \"Success: Server is online\" || echo \"Failure: Server seems down\"'"}
+{"prompt": "podman build", "completion": " --tag {{image_name:version}} {{path/to/directory}}"}
+{"prompt": "sudo btrfs", "completion": " subvolume delete {{指向子卷的路径}}"}
+{"prompt": "doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[c|create]}} --count {{3}} --region {{nyc1}}", "completion": " --size {{s-1vcpu-2gb}} --version {{latest}} {{cluster_name}}"}
+{"prompt": "az storage queue list --prefix", "completion": " {{filter_prefix}} --account-name {{storage_account_name}}"}
+{"prompt": "nice -n 19", "completion": " sha256sum *"}
+{"prompt": "particle flash --serial", "completion": " {{경로/대상/방화벽.bin}}"}
+{"prompt": "id3v2", "completion": " --list-genres"}
+{"prompt": "ksh", "completion": " -x {{chemin/vers/le/script.ksh}}"}
+{"prompt": "cat", "completion": " {{fil1 fil2 ...}} >> {{målfil}}"}
+{"prompt": "sudo cu", "completion": " {{[-l|--line]}} {{/dev/ttyUSB0}} {{[-s|--speed]}} {{115200}}"}
+{"prompt": "hg add", "completion": " --dry-run"}
+{"prompt": "postconf -C", "completion": " {{class}}"}
+{"prompt": "flutter", "completion": " test {{test/beispiel_test.dart}}"}
+{"prompt": "sudo", "completion": " btrfs subvolume snapshot -r {{경로/대상/소스_서브볼륨}} {{경로/대상/대상}}"}
+{"prompt": "fwconsole", "completion": " reload"}
+{"prompt": "lsof", "completion": " -t {{路径/到/文件}}"}
+{"prompt": "man {{[-w|--where]}}", "completion": " {{comando}}"}
+{"prompt": "javac", "completion": " {{arquivo.java}}"}
+{"prompt": "mesg", "completion": " {{[-v|--verbose]}}"}
+{"prompt": "sudo btrbk", "completion": " --verbose dryrun"}
+{"prompt": "hexdump", "completion": " -C {{路径/到/文件}}"}
+{"prompt": "xauth", "completion": " add {{display_name}} {{protocol_name}} {{key}}"}
+{"prompt": "git checkout-index --all --force", "completion": " --prefix={{경로/대상/내보내기_폴더/}}"}
+{"prompt": "choco pin add", "completion": " --name {{package}}"}
+{"prompt": "repquota {{[-u|--user]}}", "completion": " {{filesystem}}"}
+{"prompt": "mkfs -t {{ext4}}", "completion": " {{경로/대상/파티션}}"}
+{"prompt": "pdfdetach", "completion": " -save {{número}} {{ruta/a/la/entrada.pdf}}"}
+{"prompt": "aur", "completion": " sync {{[-u|--upgrades]}}"}
+{"prompt": "nohup", "completion": " flask run &"}
+{"prompt": "pw-mon", "completion": " --remote={{원격_이름}}"}
+{"prompt": "hledger import", "completion": " --catchup {{경로/대상/은행.csv}}"}
+{"prompt": "kubeadm", "completion": " config view"}
+{"prompt": "hub", "completion": " create"}
+{"prompt": "envsubst", "completion": " '{{$USER $SHELL $HOME}}' < {{path/to/input_file}}"}
+{"prompt": "git", "completion": " ls-remote {{저장소_이름}} \"{{브랜치_혹은_태그_이름}}\""}
+{"prompt": "gcov", "completion": " --all-blocks {{경로/대상/파일.cpp}}"}
+{"prompt": "tmt run plan --name {{/plan/name}} test", "completion": " --name {{/test/name}}"}
+{"prompt": "useradd -r -s", "completion": " /sbin/nologin pushbot"}
+{"prompt": "mimikatz", "completion": " \"sekurlsa::secrets\""}
+{"prompt": "[ -f", "completion": " {{ruta/al/archivo}} ]"}
+{"prompt": "cd", "completion": " /lost+found"}
+{"prompt": "tcpreplay {{[-i|--intf1]}} {{eth0}} {{[-l|--loop]}}", "completion": " {{num_times}} {{traffic.pcap}}"}
+{"prompt": "autoflake --remove-unused-variables --in-place", "completion": " --recursive {{路径/到/目录}}"}
+{"prompt": "xml {{[esc|escape]}}", "completion": " \"{{<a1>}}\""}
+{"prompt": "tldr {{[-L|--language]}} {{kode_bahasa}}", "completion": " {{perintah}}"}
+{"prompt": "chmod", "completion": " o+rx script.js"}
+{"prompt": "php", "completion": " yii {{help}}"}
+{"prompt": "pinky", "completion": " {{사용자}}"}
+{"prompt": "date", "completion": " +%s"}
+{"prompt": "mosquitto_passwd -D", "completion": " {{경로/대상/비밀번호_파일}} {{사용자명}}"}
+{"prompt": "protontricks-launch --appid {{appid}}", "completion": " {{path/to/executable.exe}}"}
+{"prompt": "caja", "completion": " {{[-t|--tabs]}} {{path/to/directory1 path/to/directory2 ...}}"}
+{"prompt": "cs", "completion": " resolve {{그룹_아이디1}}:{{아티팩트_아이디1}}:{{아티팩트_버전1}} {{그룹_아이디2}}:{{아티팩트_아이디2}}:{{아티팩트_버전2}}"}
+{"prompt": "asterisk -r -x \"sip", "completion": " reload\""}
+{"prompt": "ssh -o ControlMaster=auto -o ControlPath=~/.ssh/master-%r@%h:%p", "completion": " user@hostname"}
+{"prompt": "swapon", "completion": " {{path/to/file}}"}
+{"prompt": "guix package {{[-s|--search]}}", "completion": " \"{{search_pattern}}\""}
+{"prompt": "minetestserver", "completion": " --world list"}
+{"prompt": "clamscan", "completion": " --move {{หนทาง/ไปยัง/ไดเรคทอรีสำหรับการกักกัน}}"}
+{"prompt": "audit2allow", "completion": " {{[-R|--reference]}}"}
+{"prompt": "VBoxManage", "completion": " extpack uninstall --force {{확장팩_이름}}"}
+{"prompt": "babel", "completion": " {{path/to/input_directory}} --ignore {{ignored_file1,ignored_file2,...}}"}
+{"prompt": "journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}}", "completion": " \"{{YYYY-MM-DD HH:MM:SS}}\""}
+{"prompt": "wsl --export {{distribución}}", "completion": " {{ruta\\a\\archivo_de_distribucion.tar}}"}
+{"prompt": "qcp {{[-o|--option]}} swap", "completion": " {{*.jpg}}"}
+{"prompt": "tar cvzf - {{경로/대상/폴더1 경로/대상/폴더2}} | uuencode {{데이터.tar.gz}} | mail --subject", "completion": " \"{{제목}}\" {{받는이@example.com}}"}
+{"prompt": "nc -v -z", "completion": " {{ip_주소}} {{포트}}"}
+{"prompt": "smbclient", "completion": " {{//서버/공유}} --user {{사용자명}}"}
+{"prompt": "nettop -m {{tcp}}", "completion": " -t {{loopback}}"}
+{"prompt": "xfreerdp /v:{{IP_주소}} /u:{{사용자명}} /p:{{비밀번호}}", "completion": " /cert:ignore"}
+{"prompt": "pacman -Qo", "completion": " {{文件名}}"}
+{"prompt": "traceroute", "completion": " -T google.com"}
+{"prompt": "xsetwacom set \"{{device_name}}\"", "completion": " MapToOutput {{screen}}"}
+{"prompt": "zpool", "completion": " import"}
+{"prompt": "yaa archive -b 8m", "completion": " -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}"}
+{"prompt": "b2sum --check", "completion": " --quiet {{கோப்பு.b2/பாதை}}"}
+{"prompt": "expand", "completion": " {{cab 文件路径}} {{指定的目录}} -f:*"}
+{"prompt": "cmstp", "completion": " /s \"{{ruta\\al\\archivo_de_perfil}}\""}
+{"prompt": "libreoffice", "completion": " --convert-to pdf *.doc"}
+{"prompt": "quarto create-project", "completion": " {{路径/到/目录}} --type {{website}} --template {{blog}}"}
+{"prompt": "clang++", "completion": " {{jalan/menuju/sumber1.cpp jalan/menuju/sumber2.cpp ...}} {{[-o|--output]}} {{jalan/menuju/program}}"}
+{"prompt": "bootctl", "completion": " --esp-path={{/경로/대상/efi_시스템_파티션/}}"}
+{"prompt": "gcpdiag", "completion": " lint --project={{gcp_프로젝트_아이디}} --auth-key {{경로/대상/개인_키}}"}
+{"prompt": "aws", "completion": " iam list-policies"}
+{"prompt": "asciiart", "completion": " --width {{50}} {{ruta/a/la/imagen.jpg}}"}
+{"prompt": "openttd -g", "completion": " {{경로/대상/파일}}"}
+{"prompt": "pkg", "completion": " search {{keyword}}"}
+{"prompt": "flutter", "completion": " pub upgrade {{패키지}}"}
+{"prompt": "ps {{[-u|--user]}} $(id", "completion": " {{[-u|--user]}}) f"}
+{"prompt": "repo-add {{[-R|--remove]}}", "completion": " {{경로/대상/데이터베이스.db.tar.gz}} {{*.pkg.tar.zst}}"}
+{"prompt": "vdir", "completion": " -t"}
+{"prompt": "watchexec {{[-w|--watch]}}", "completion": " {{lib}} {{[-w|--watch]}} {{src}} {{make}}"}
+{"prompt": "userdel", "completion": " -r devtest"}
+{"prompt": "rapper -i rdfxml", "completion": " -o turtle {{경로/대상/파일}}"}
+{"prompt": "clang {{源/文件/的路径.c}} -O{{1|2|3|fast}} {{[-o|--output]}}", "completion": " {{可执行/文件/的路径}}"}
+{"prompt": "influx", "completion": " -execute \"{{influxql_command}}\""}
+{"prompt": "dpkg", "completion": " -i {{pfad/zu/datei.deb}}"}
+{"prompt": "systemctl {{start|stop|restart|reload|status}}", "completion": " {{eenheid}}"}
+{"prompt": "smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}}", "completion": " -x {{command}}"}
+{"prompt": "ppmtopi1 {{path/to/image.ppm}} >", "completion": " {{path/to/output_image.pi1}}"}
+{"prompt": "zip -r -{{0-9}} {{путь/до/архива.zip}} {{путь/до/файла_или_папки1 путь/до/файла_или_папки2", "completion": " ...}}"}
+{"prompt": "sudo dnf install", "completion": " {{paket1 paket2 ...}}"}
+{"prompt": "wget", "completion": " --quota=1m -r http://example.com/"}
+{"prompt": "findstr \"{{string1 string2", "completion": " ...}}\" *"}
+{"prompt": "java_home --arch", "completion": " {{i386}}"}
+{"prompt": "ppmhist -nomap", "completion": " {{경로/대상/이미지.ppm}}"}
+{"prompt": "ppmtosixel", "completion": " -7bit {{path/to/file.ppm}} > {{path/to/file.sixel}}"}
+{"prompt": "git", "completion": " clone --recursive {{url_zu_repository}}"}
+{"prompt": "clamdscan --move", "completion": " {{경로/대상/격리되는_디렉토리}}"}
+{"prompt": "traceroute -f", "completion": " 5 example.com"}
+{"prompt": "lli", "completion": " -O3 {{경로/대상/파일.ll}}"}
+{"prompt": "sudo systemctl start", "completion": " stratisd"}
+{"prompt": "sudo pacman", "completion": " --upgrade --nodeps {{pfad/zu/paket.pkg.tar.zst}}"}
+{"prompt": "e2undo -h", "completion": " {{path/to/undo_file}} {{/dev/sdXN}}"}
+{"prompt": "lxc", "completion": " network create {{network_name}}"}
+{"prompt": "zip -r logs.zip", "completion": " logs"}
+{"prompt": ":lf", "completion": " {{nixpkgs}}"}
+{"prompt": "nohup ping google.com > ping_output.txt 2>&1", "completion": " &"}
+{"prompt": "echo", "completion": " \"{{digraph {this -> that} }}\" | patchwork -T {{gif}} > {{path/to/image.gif}}"}
+{"prompt": "lzip --test", "completion": " {{경로/대상/아카이브.lz}}"}
+{"prompt": "m bluetooth", "completion": " off"}
+{"prompt": "asciidoctor", "completion": " {{path/to/file.adoc}}"}
+{"prompt": "{{comando}} | rargs -0", "completion": " {{comando}} {0}"}
+{"prompt": "distrobox-stop {{[-n|--name]}} {{container_naam}}", "completion": " {{[-Y|--yes]}}"}
+{"prompt": "nice", "completion": " -n 12 tar -xzf archive.tar.gz"}
+{"prompt": "host yahoo.com | tr '[:lower:]' '[:upper:]' |", "completion": " lolcat"}
+{"prompt": "dot_clean -n", "completion": " {{경로/대상/폴더}}"}
+{"prompt": "fuser --verbose", "completion": " {{경로/대상/파일_또는_폴더}}"}
+{"prompt": "ping.py {{source_ipv4}}", "completion": " {{destination_ipv4}}"}
+{"prompt": "groupdel", "completion": " software_dev"}
+{"prompt": "tune.exfat {{[-u|--print-guid]}}", "completion": " {{/dev/sdXY}}"}
+{"prompt": "screenfetch", "completion": " -A '{{배포판_이름}}'"}
+{"prompt": "ac -p", "completion": " {{ব্যবহারকারী_নাম}}"}
+{"prompt": "sudo apt install", "completion": " {{প্যাকেজ}}"}
+{"prompt": "snmpnetstat -v", "completion": " {{version}} -c {{community}} {{ip}}"}
+{"prompt": "shuf {{경로/대상/입력_파일}}", "completion": " --output={{경로/대상/출력_파일}}"}
+{"prompt": "rfetch", "completion": " -t"}
+{"prompt": "cat file.txt", "completion": " | unexpand"}
+{"prompt": "kill -{{2|INT}}", "completion": " {{id_do_processo}}"}
+{"prompt": "strip", "completion": " --strip-debug {{경로/대상/파일.o}}"}
+{"prompt": "{{cat 路径/到/文件.json}}", "completion": " | jq '.[]'"}
+{"prompt": "mv -n *", "completion": " /tmp/"}
+{"prompt": "Test-NetConnection -ComputerName", "completion": " {{ip_o_nombre_del_host}} -Port {{número_de_puerto}}"}
+{"prompt": "service ssh", "completion": " reload"}
+{"prompt": "mocha", "completion": " {{테스트가_있는_디렉토리}}"}
+{"prompt": "echo {{text}}", "completion": " | airpaste"}
+{"prompt": "sudo", "completion": " useradd {{[-m|--create-home]}} {{gebruikersnaam}}"}
+{"prompt": "runuser {{user}} {{[-g|--group]}} {{group}}", "completion": " {{[-c|--command]}} '{{command}}'"}
+{"prompt": "scp -r {{远程主机地址}}:{{路径/到/远程目录}}", "completion": " {{路径/到/本地目录}}"}
+{"prompt": "git merge-repo {{경로/대상/원격_저장소}} {{브랜치_이름}}", "completion": " ."}
+{"prompt": "touch", "completion": " ~/music"}
+{"prompt": "kiterunner", "completion": " brute {{pad/naar/doelen.txt}} {{[-w|--wordlist]}} {{pad/naar/woordenlijst.txt}} --fail-status-codes {{400,401,404}}"}
+{"prompt": "dict", "completion": " -D"}
+{"prompt": "stdbuf --error=0", "completion": " {{आदेश}}"}
+{"prompt": "sudo nvram", "completion": " -xf {{경로/대상/파일.xml}}"}
+{"prompt": "zapier scaffold", "completion": " {{[-d|--debug]}}"}
+{"prompt": "ng generate", "completion": " class {{sınıf_ismi}}"}
+{"prompt": "gnmic -a {{ip:puerto}} subscribe --path {{ruta}} --stream-mode", "completion": " on-change --heartbeat-interval 1m"}
+{"prompt": "sudo btrfs restore", "completion": " --dry-run {{chemin/du/device/btrfs}} {{chemin/du/dossier}}"}
+{"prompt": "virsh connect", "completion": " qemu:///system"}
+{"prompt": "quarkus extension add {{扩展名1 扩展名2", "completion": " ...}}"}
+{"prompt": "torsocks", "completion": " {{[-a|--address]}} {{ip}} {{[-P|--port]}} {{포트}} {{명령}}"}
+{"prompt": "mozillavpn", "completion": " login"}
+{"prompt": "valac {{경로/대상/파일.vala}}", "completion": " --pkg {{gtk+-3.0}}"}
+{"prompt": "hledger", "completion": " acc -t -2"}
+{"prompt": "dolt", "completion": " clone --aws-creds-file {{인증_파일}} {{레포지토리_주소}}"}
+{"prompt": "sudo htpdate -s", "completion": " {{호스트}}"}
+{"prompt": "wfuzz -w", "completion": " {{path/to/file}} -H \"{{Host: FUZZ.example.com}}\" --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}"}
+{"prompt": "csrutil", "completion": " netboot add {{ip}}"}
+{"prompt": "sudo", "completion": " btrfs quota enable {{chemin/vers/sous_volume}}"}
+{"prompt": "nxc mssql {{192.168.178.2}} {{[-u|--username]}} {{username}}", "completion": " {{[-p|--password]}} {{password}} --put-file {{path/to/local_file}} {{C:\\path\\to\\remote_file}}"}
+{"prompt": "ignite", "completion": " remove {{플러그인_이름}}"}
+{"prompt": "ipconfig", "completion": " /renew {{介面卡}}"}
+{"prompt": "acme.sh --issue --domain", "completion": " {{example.com}} --webroot {{/jalan/menuju/webroot}}"}
+{"prompt": "xcodes download", "completion": " {{versi_xcode}} --directory {{jalan/menuju/direktori}}"}
+{"prompt": "sudo ifconfig enp0s3 netmask", "completion": " 255.255.255.0"}
+{"prompt": "protonvpn", "completion": " {{subcommand}} --help"}
+{"prompt": "dnf", "completion": " info {{paquete}}"}
+{"prompt": "aws s3 sync s3://{{nama_bucket}}", "completion": " {{jalan/menuju/tujuan}}"}
+{"prompt": "unsquashfs {{[-i|-info]}}", "completion": " {{filesystem.squashfs}}"}
+{"prompt": "kill -{{17|STOP}}", "completion": " {{प्रक्रिया_आईडी}}"}
+{"prompt": "git", "completion": " blame {{komit}}~ {{jalan/menuju/berkas}}"}
+{"prompt": "aws lambda", "completion": " get-function-concurrency --function-name {{nome}}"}
+{"prompt": "sudo snort -i", "completion": " {{인터페이스}} -l {{경로/대상/폴더}}"}
+{"prompt": "rsync {{[-r|--recursive]}}", "completion": " {{路径/到/来源}} {{路径/到/目标}}"}
+{"prompt": "pocount", "completion": " {{path/to/file/file.po}}"}
+{"prompt": "sha224sum --ignore-missing --check --quiet", "completion": " {{경로/대상/파일.sha224}}"}
+{"prompt": "for pid in $(cat /sys/fs/cgroup/user.slice/*.tasks); do", "completion": " sudo renice +5 $pid; done"}
+{"prompt": "xmllint", "completion": " --dtdvalid {{URL}} {{소스_파일.xml}}"}
+{"prompt": "pacaur", "completion": " -Rs {{package}}"}
+{"prompt": "defaults", "completion": " read \"{{애플리케이션}}\" \"{{옵션}}\""}
+{"prompt": "gifdiff {{경로/대상/첫번째파일.gif}}", "completion": " {{경로/대상/두번째파일.gif}}"}
+{"prompt": "ooniprobe run websites", "completion": " --input-file {{경로/대상/my-websites.txt}}"}
+{"prompt": "dolt", "completion": " commit"}
+{"prompt": "pyinfra {{경로/대상/목록.py}}", "completion": " {{경로/배포.py}}"}
+{"prompt": "sudo fallocate", "completion": " -l 1G /swapfile"}
+{"prompt": "ssh", "completion": " user@hostname"}
+{"prompt": "git help {{[-w|--web]}}", "completion": " {{komut_ismi}}"}
+{"prompt": "yes", "completion": " {{message}}"}
+{"prompt": "parted /dev/sda mkpart primary ext4 100MiB", "completion": " 1GiB"}
+{"prompt": "touch", "completion": " /var/log/secure"}
+{"prompt": "tesseract", "completion": " --list-langs"}
+{"prompt": "kill -{{9|KILL}}", "completion": " {{프로세스_ID}}"}
+{"prompt": "onionsearch", "completion": " \"{{string}}\""}
+{"prompt": "uname", "completion": " -r"}
+{"prompt": "nmcli connection add type ethernet", "completion": " con-name \"My Ethernet\" ifname eth0 ipv4.dhcp-use-routes yes"}
+{"prompt": "sha224sum {{[-c|--check]}}", "completion": " --quiet {{path/to/file.sha224}}"}
+{"prompt": "kcat -G {{id_de_grupo}} {{tema}} -b", "completion": " {{intermediarios}}"}
+{"prompt": "lsar", "completion": " {{path/to/archive}}"}
+{"prompt": "gpasswd -d", "completion": " mike test"}
+{"prompt": "chafa {{[-c|--colors]}} none --symbols", "completion": " braille {{path/to/file}}"}
+{"prompt": "sudo systemctl", "completion": " restart cron"}
+{"prompt": "docker", "completion": " volume {{sous_commande}} --help"}
+{"prompt": "acme.sh", "completion": " --issue --dns {{gnd_gd}} --domain {{example.com}}"}
+{"prompt": "docker run --network", "completion": " {{reseau}} {{image}}"}
+{"prompt": "deb-get remove", "completion": " {{package}}"}
+{"prompt": "chown user29", "completion": " folderA"}
+{"prompt": "sysdig", "completion": " {{[-r|--read]}} {{path/to/file}}.scap"}
+{"prompt": "tlmgr info", "completion": " {{package}} --list"}
+{"prompt": "sudo", "completion": " apt remove {{nama_paket}}"}
+{"prompt": "{{sudo dmesg}} |", "completion": " yank -l"}
+{"prompt": "usermod -d", "completion": " /users/kiran -m kiran"}
+{"prompt": "gummy", "completion": " --brightness {{-10}}"}
+{"prompt": "nordvpn connect {{Germany}}", "completion": " {{Berlin}}"}
+{"prompt": "dnsrecon --domain {{example.com}} --type snoop --name_server", "completion": " {{nameserver.example.com}} --dictionary {{경로/대상/사전.txt}}"}
+{"prompt": "mkfs", "completion": " -t {{ext4}} {{path/to/partition}}"}
+{"prompt": "aider {{path/to/file}}", "completion": " --update-docs"}
+{"prompt": "agetty {{[-n|--skip-login]}}", "completion": " {{[-l|--login-program]}} {{login_program}} {{tty}}"}
+{"prompt": "doctl", "completion": " apps update {{앱_아이디}} --spec {{path/to/spec.yml}}"}
+{"prompt": "sudo asr", "completion": " restore --source {{caminho/para/volume}} --target {{caminho/para/volume_clonado}}"}
+{"prompt": "mosh", "completion": " --server={{ruta/a/bin/}}mosh-server {{equipo_remoto}}"}
+{"prompt": "task add {{descripción}}", "completion": " due:{{tomorrow}}"}
+{"prompt": "gpasswd", "completion": " -d arya beta"}
+{"prompt": "helm install", "completion": " {{nombre}} {{nombre_del_repositorio}}/{{nombre_del_chart}} --set {{parámetro1}}={{valor1}},{{parámetro2}}={{valor2}}"}
+{"prompt": "dockerd", "completion": " {{[-l|--log-level]}} {{debug|info|warn|error|fatal}}"}
+{"prompt": "pbpaste >", "completion": " {{datei}}"}
+{"prompt": "pacman", "completion": " -Qm"}
+{"prompt": "mmdc --input {{입력.mmd}} --output", "completion": " {{출력.svg}}"}
+{"prompt": "sudo", "completion": " turbostat --quiet"}
+{"prompt": "sudo btrfs {{[c|check]}}", "completion": " --repair --init-csum-tree {{path/to/partition}}"}
+{"prompt": "drill", "completion": " -x {{8.8.8.8}}"}
+{"prompt": "pabcnetcclear /Define:{{símbolo}}", "completion": " {{ruta\\al\\archivo_fuente.pas}}"}
+{"prompt": "adb pull {{path/to/device_file_or_directory}}", "completion": " {{path/to/local_destination_directory}}"}
+{"prompt": "envycontrol", "completion": " --dm"}
+{"prompt": "aplay", "completion": " notification.wav"}
+{"prompt": "git show-branch", "completion": " {{nome_ramo|riferimento|commit}}"}
+{"prompt": "git apply {{[-v|--verbose]}}", "completion": " {{கோப்பு/பாதை}}"}
+{"prompt": "pake --name {{Google}}", "completion": " --icon {{path/to/icon.ico}} {{https://www.google.com/}}"}
+{"prompt": "apt-cache", "completion": " show {{paquet}}"}
+{"prompt": "whatwaf --tor --payloads '{{carga1,carga2,...}}'", "completion": " -u {{https://example.com}}"}
+{"prompt": "docker volume rm", "completion": " {{볼륨_이름}}"}
+{"prompt": "aircrack-ng -p {{线程数}} -w {{路径/到/字典文件.txt}}", "completion": " {{路径/到/捕获文件.cap}}"}
+{"prompt": "cryptcat", "completion": " -k {{비밀번호}} {{IP_주소}} {{포트}}"}
+{"prompt": "git unlock", "completion": " {{path/to/file}}"}
+{"prompt": "exec", "completion": " -l {{command -with -flags}}"}
+{"prompt": "acme.sh --issue", "completion": " --alpn {{[-d|--domain]}} {{example.com}}"}
+{"prompt": "rpi-imager --cli", "completion": " {{path/to/image.zip}} {{/dev/sdX}}"}
+{"prompt": "cupsreject {{목적지1", "completion": " 목적지2 ...}}"}
+{"prompt": "npm", "completion": " {{[c|config]}} list --json"}
+{"prompt": "dbx", "completion": " configure --profile {{DEFAULT}}"}
+{"prompt": "docker", "completion": " rm {{[-h|--help]}}"}
+{"prompt": "snmpwalk -v 1 -c", "completion": " {{community}} {{ip}}"}
+{"prompt": "git clean {{[-f|--force]}}", "completion": " -d"}
+{"prompt": "asdf plugin add", "completion": " {{nama}}"}
+{"prompt": "gpgv", "completion": " {{path/to/signature}} {{path/to/file}}"}
+{"prompt": "fsutil", "completion": " repair state"}
+{"prompt": "2to3 --write {{jalan/menuju/berkas.py}} --fix {{raw_input}}", "completion": " --fix {{print}}"}
+{"prompt": "command -p", "completion": " {{command_name}}"}
+{"prompt": "spotify play", "completion": " list {{재생목록_이름}}"}
+{"prompt": "chown {{[-h|--no-dereference]}}", "completion": " {{用户}} {{路径/到/符号链接}}"}
+{"prompt": "mount", "completion": " /dev/mapper/encrypted /mnt/encrypted"}
+{"prompt": "semver {{1.2.3}} --range", "completion": " \"{{^1.0}}\""}
+{"prompt": "sudo apt remove", "completion": " {{pacchetto}}"}
+{"prompt": "zellij {{[-s|--session]}}", "completion": " {{name}}"}
+{"prompt": "rpcinfo", "completion": " /t {{nombre_de_computadora}} {{nombre_del_programa}}"}
+{"prompt": "abrt-action-analyze-c", "completion": " -v"}
+{"prompt": "pkgin remove", "completion": " {{pakiet}}"}
+{"prompt": "wami --list-topics", "completion": " {{search_string}}"}
+{"prompt": "mpremote connect", "completion": " list"}
+{"prompt": "glab mr", "completion": " view {{[-w|--web]}} {{pr_number}}"}
+{"prompt": "readlink {{[-f|--canonicalize]}}", "completion": " {{path/to/file}}"}
+{"prompt": "qtcreator -git-show", "completion": " {{提交}}"}
+{"prompt": "cs install", "completion": " {{application_name}}:{{application_version}}"}
+{"prompt": "git", "completion": " local-commits"}
+{"prompt": "ansible-playbook {{playbook}} {{[-t|--tags|]}}", "completion": " {{태그1,태그2}}"}
+{"prompt": "gh pr merge", "completion": " {{pr_number}}"}
+{"prompt": "wget --save-cookies", "completion": " cookies.txt http://example.com/file.zip"}
+{"prompt": "gcloud compute ssh", "completion": " {{user}}@{{instance}}"}
+{"prompt": "az webapp up {{[-n|--name]}} {{name}} {{[-l|--location]}} {{location}}", "completion": " {{[-r|--runtime]}} {{runtime}}"}
+{"prompt": "git release", "completion": " {{태그_이름}} -s"}
+{"prompt": "timeout --kill-after={{5m}}", "completion": " {{30s}} {{명령}}"}
+{"prompt": "crane export -", "completion": " {{경로/대상/파일이름}}"}
+{"prompt": "jmtpfs -o", "completion": " {{allow_other,auto_unmount}} {{路径/到/目录}}"}
+{"prompt": "pamac remove", "completion": " --orphans {{назва_пакета}}"}
+{"prompt": "yadm", "completion": " gitconfig --unset {{키}}"}
+{"prompt": "pnpm add", "completion": " {{nama_modul}}@{{versi}}"}
+{"prompt": "lstopo", "completion": " --no-factorize"}
+{"prompt": "go env", "completion": " {{GOPATH}}"}
+{"prompt": "sudo tlmgr platform", "completion": " set auto"}
+{"prompt": "echo 'host facebook.com';", "completion": " host facebook.com"}
+{"prompt": "strings", "completion": " {{ruta/al/archivo}}"}
+{"prompt": "sudo", "completion": " rm /etc/sample.conf"}
+{"prompt": "eksctl", "completion": " create cluster"}
+{"prompt": "zgrep", "completion": " -i {{模式}} {{路径/到/压缩/文件}}"}
+{"prompt": "raco setup", "completion": " {{collection1 collection2 ...}}"}
+{"prompt": "git summary", "completion": " --line"}
+{"prompt": "mangohud", "completion": " {{command}}"}
+{"prompt": "free -b -w", "completion": " -s 5 -c 3"}
+{"prompt": "transmission-daemon {{[-d|--dump-settings]}} >", "completion": " {{path/to/file.json}}"}
+{"prompt": "git config credential.helper 'cache", "completion": " --timeout={{time_in_seconds}}'"}
+{"prompt": "automount", "completion": " -u"}
+{"prompt": "slmgr.vbs", "completion": " /ato"}
+{"prompt": "asdf set", "completion": " {{nom}} {{version}}"}
+{"prompt": "chpass -s", "completion": " {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}"}
+{"prompt": "hexdump", "completion": " {{pad/naar/bestand}}"}
+{"prompt": "ndc -p {{path/to/pidfile}}", "completion": " {{command}}"}
+{"prompt": "adb shell pm", "completion": " revoke {{पैकेज}} {{अनुमति}}"}
+{"prompt": "ifconfig -a", "completion": " inet6"}
+{"prompt": "screen -S upgrade", "completion": " sudo apt update && sudo apt upgrade"}
+{"prompt": "opam", "completion": " search {{query}}"}
+{"prompt": "history", "completion": " | grep npm"}
+{"prompt": "kinit", "completion": " -l {{5h}}"}
+{"prompt": "userdel", "completion": " helpdesk_demo"}
+{"prompt": "Invoke-WebRequest -Headers {{@{ X-My-Header = '123'", "completion": " }}} -Method {{PUT}} {{http://example.com}}"}
+{"prompt": "sqlite-utils query {{path/to/database.db}} \"{{delete from table_name", "completion": " where name = 'Tony Hoare'}}\""}
+{"prompt": "ntpctl -s", "completion": " {{[S|Sensors]}}"}
+{"prompt": "sudo a2ensite {{[-q|--quiet]}}", "completion": " {{virtual_host}}"}
+{"prompt": "z -r", "completion": " {{foo}}"}
+{"prompt": "cp -R", "completion": " {{स्रोत_निर्देशिका/को/पथ}} {{लक्ष्य_निर्देशिका/को/पथ}}"}
+{"prompt": "echo '{{{\"key\": \"value\"}}}' | python -m", "completion": " json.tool"}
+{"prompt": "git", "completion": " bundle create {{percorso/del/file.bundle}} --since=7.days {{HEAD}}"}
+{"prompt": "readelf --headers", "completion": " {{경로/대상/바이너리}}"}
+{"prompt": "immich-go", "completion": " -server={{서버_주소}} -key={{서버_키}} tool album delete {{\\d{4}-\\d{2}-\\d{2}}}"}
+{"prompt": "npm", "completion": " fund"}
+{"prompt": "ping -O", "completion": " {{host}}"}
+{"prompt": "racket", "completion": " {{[-e|--eval]}} \"{{expression}}\""}
+{"prompt": "ctest", "completion": " -N"}
+{"prompt": "pcapfix", "completion": " {{path/to/file.pcapng}}"}
+{"prompt": "mv {{jalan/menuju/sumber}}", "completion": " {{jalan/menuju/tujuan}}"}
+{"prompt": "git submodule add", "completion": " {{depo_url'si}} {{dizin/konumu}}"}
+{"prompt": "sudo ip", "completion": " {{[ru|rule]}} {{[d|delete]}} to {{192.168.178.2/32}}"}
+{"prompt": "run-mailcap", "completion": " --action=view {{filename}}"}
+{"prompt": "cat {{index.html}} | pup", "completion": " '{{tag}}'"}
+{"prompt": "ack", "completion": " {{[-c|--count]}} {{[-l|--files-with-matches]}} \"{{padrão_de_busca}}\""}
+{"prompt": "mysqlcheck --repair", "completion": " {{테이블}}"}
+{"prompt": "aura --aursync", "completion": " {{패키지}}"}
+{"prompt": "pbmtoxbm {{path/to/input_file.pbm}}", "completion": " > {{path/to/output_file.xbm}}"}
+{"prompt": "docker secret inspect --pretty", "completion": " {{nom_du_secret1 nom_du_secret2 ...}}"}
+{"prompt": "source", "completion": " {{경로/대상/가상_환경}}/bin/activate"}
+{"prompt": "deno", "completion": " run {{https://deno.land/std/examples/welcome.ts}}"}
+{"prompt": "powershell", "completion": " -NoExit"}
+{"prompt": "drill -s", "completion": " dnskey {{example.com}}"}
+{"prompt": "sudo apt-mark", "completion": " auto {{package}}"}
+{"prompt": "alacritty --working-directory", "completion": " {{path/to/directory}}"}
+{"prompt": "choco", "completion": " install {{paquete}} --source {{url_fuente|alias}}"}
+{"prompt": "csvstat", "completion": " {{data.csv}}"}
+{"prompt": "blastp -query", "completion": " {{쿼리.fa}} -db {{nr}} -remote"}
+{"prompt": "gh browse {{[-b|--branch]}}", "completion": " {{branch_name}}"}
+{"prompt": "trufflehog github", "completion": " --repo={{https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments"}
+{"prompt": "uname", "completion": " -arvp"}
+{"prompt": "terragrunt", "completion": " run-all apply"}
+{"prompt": "bob", "completion": " erase"}
+{"prompt": "sudo mdadm", "completion": " --detail {{/dev/md0}}"}
+{"prompt": "alias", "completion": " du='du -h'"}
+{"prompt": "pocount --csv", "completion": " {{traducción_*.ts}} > {{ruta/a/progreso_de_traducción.csv}}"}
+{"prompt": "axel", "completion": " -s {{speed}} {{url}}"}
+{"prompt": "cscript ospp.vbs", "completion": " /unpkey:{{clave_producto}}"}
+{"prompt": "rg", "completion": " {{[-.|--hidden]}} --no-ignore {{patroon}}"}
+{"prompt": "passwd", "completion": " -l steve"}

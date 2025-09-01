@@ -1,0 +1,15 @@
+{"timestamp_str":"2021-02-12T15:45:15+00:00","sandbox_id":"17","pool_id":"1","cmd":"ls","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:49:05+00:00","sandbox_id":"17","pool_id":"1","cmd":"Fcrackzip -u -D -P /usr/share/wordlists/fasttrackt.txt invoices2019.zip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:49:30+00:00","sandbox_id":"17","pool_id":"1","cmd":"fcrackzip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:49:48+00:00","sandbox_id":"17","pool_id":"1","cmd":"fcrackzip --help","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:50:14+00:00","sandbox_id":"17","pool_id":"1","cmd":"exit","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:51:51+00:00","sandbox_id":"17","pool_id":"1","cmd":"exit","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:53:34+00:00","sandbox_id":"17","pool_id":"1","cmd":"exit","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:54:04+00:00","sandbox_id":"17","pool_id":"1","cmd":"pdw","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:54:06+00:00","sandbox_id":"17","pool_id":"1","cmd":"pwd","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:54:08+00:00","sandbox_id":"17","pool_id":"1","cmd":"ls","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T15:54:47+00:00","sandbox_id":"17","pool_id":"1","cmd":"scp root@10.0.2.15:/root /home/admin/invoices2019.zip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T16:00:41+00:00","sandbox_id":"17","pool_id":"1","cmd":"scp root@10.0.2.15:/root /home/admin/invoices2019.zip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T16:01:04+00:00","sandbox_id":"17","pool_id":"1","cmd":"exit","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T16:05:13+00:00","sandbox_id":"17","pool_id":"1","cmd":"scp root@10.0.2.15:/root /home/admin/invoices2019.zip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-12T16:06:04+00:00","sandbox_id":"17","pool_id":"1","cmd":"exit","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}

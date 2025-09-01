@@ -1,0 +1,32 @@
+{"timestamp_str":"2021-02-09T15:08:21+01:00","sandbox_id":"8","pool_id":"1","cmd":"locate game_disign.md","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:08:31+01:00","sandbox_id":"8","pool_id":"1","cmd":"locate game_design.md","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:08:38+01:00","sandbox_id":"8","pool_id":"1","cmd":"d","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:10:47+01:00","sandbox_id":"8","pool_id":"1","cmd":"ifocnfig","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:10:50+01:00","sandbox_id":"8","pool_id":"1","cmd":"ifconfig","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:11:17+01:00","sandbox_id":"8","pool_id":"1","cmd":"nmap 10.0.2.1/24","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:13:07+01:00","sandbox_id":"8","pool_id":"1","cmd":"ssh admin@10.0.2.4","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:13:45+01:00","sandbox_id":"8","pool_id":"1","cmd":"ssh admin@10.0.2.15","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:14:10+01:00","sandbox_id":"8","pool_id":"1","cmd":"password","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:14:19+01:00","sandbox_id":"8","pool_id":"1","cmd":"ssh admin@10.0.2.15","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:18:00+01:00","sandbox_id":"8","pool_id":"1","cmd":"nmap 10.1.26.1/24","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:18:45+01:00","sandbox_id":"8","pool_id":"1","cmd":"ssh admin@10.1.26.9","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T14:19:02+00:00","sandbox_id":"8","pool_id":"1","cmd":"ls","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T14:19:37+00:00","sandbox_id":"8","pool_id":"1","cmd":"ls -la","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:20:29+01:00","sandbox_id":"8","pool_id":"1","cmd":"fcrackzip","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:20:38+01:00","sandbox_id":"8","pool_id":"1","cmd":"fcrackzip --help","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T14:21:12+00:00","sandbox_id":"8","pool_id":"1","cmd":"fcrackzip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T14:22:09+00:00","sandbox_id":"8","pool_id":"1","cmd":"base64 invoices2019.zip","username":"admin","wd":"/home/admin","hostname":"server","ip":"10.1.26.9","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:24:42+01:00","sandbox_id":"8","pool_id":"1","cmd":"sudo apt install filezilla","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:25:05+01:00","sandbox_id":"8","pool_id":"1","cmd":"filezilla","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:26:02+01:00","sandbox_id":"8","pool_id":"1","cmd":"cd Dse","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:26:05+01:00","sandbox_id":"8","pool_id":"1","cmd":"cd Eesk","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:26:07+01:00","sandbox_id":"8","pool_id":"1","cmd":"cd Desktop/","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:26:08+01:00","sandbox_id":"8","pool_id":"1","cmd":"ls","username":"root","wd":"/root/Desktop","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:27:18+01:00","sandbox_id":"8","pool_id":"1","cmd":"locate rockyou.txt","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:27:33+01:00","sandbox_id":"8","pool_id":"1","cmd":"cd /usr/share/wordlists/","username":"root","wd":"/root","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:27:34+01:00","sandbox_id":"8","pool_id":"1","cmd":"ls","username":"root","wd":"/usr/share/wordlists","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:27:42+01:00","sandbox_id":"8","pool_id":"1","cmd":"ls -la","username":"root","wd":"/usr/share/wordlists","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:28:04+01:00","sandbox_id":"8","pool_id":"1","cmd":"fcrackzip -v -u -D -p /usr/share/wordlists/fasttrack.txt invoices2019.zip","username":"root","wd":"/root/Desktop","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:29:06+01:00","sandbox_id":"8","pool_id":"1","cmd":"passwd admin","username":"root","wd":"/root/Desktop","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:29:10+01:00","sandbox_id":"8","pool_id":"1","cmd":"passwd root","username":"root","wd":"/root/Desktop","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-09T15:29:15+01:00","sandbox_id":"8","pool_id":"1","cmd":"test","username":"root","wd":"/root/Desktop","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}

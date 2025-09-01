@@ -1,0 +1,52 @@
+provisioning: Openstack
+
+name: charlie2020
+hosts:
+
+  - name: server
+    base_box: debian-10-x86_64
+    base_box_user: debian
+    flavor: csirtmu.tiny1x2
+
+  - name: client
+    base_box: debian-10-x86_64
+    base_box_user: debian
+    flavor: csirtmu.tiny1x2
+
+  - name: attacker
+    base_box: kali-linux-2019.4-amd64
+    base_box_user: debian
+    flavor: csirtmu.small2x4
+
+routers:
+  - name: router
+    cidr: 100.100.100.0/29
+
+networks:
+
+  - name: internet
+    cidr: 10.1.0.0/16
+
+net_mappings:
+  - host: server
+    network: internet
+    ip: 10.1.26.9
+
+  - host: client
+    network: internet
+    ip: 10.1.17.4
+
+  - host: attacker
+    network: internet
+    ip: 10.1.135.83
+
+
+router_mappings:
+  - router: router
+    network: internet
+    ip: 10.1.1.1
+
+block_internet: []
+include_user_access:
+    - internet
+

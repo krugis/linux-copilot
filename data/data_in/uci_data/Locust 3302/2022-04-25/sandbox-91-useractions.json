@@ -1,0 +1,15 @@
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:24:48.865Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"ping 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:26:05.575Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"nslookup 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:26:56.030Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"nmap -sU -v 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:27:04.973Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"sudo nmap -sU -v 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:33:00.153Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"sudo nmap -sU 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:38:11.366Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"sudo nmap -P 1000 -sU -v 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:51:20.074Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"ssh 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:52:49.260Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"ifconfig","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:56:15.577Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"ls","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:56:23.535Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"cat ssh2john.py","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:56:45.382Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"python3 ssh2john.py","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:57:06.696Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"touch exploit.py","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:57:19.140Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"vim exploit.py","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:57:59.031Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"sudo vim exploit.py","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T12:05:30.050Z","ip":"10.1.135.83","sandbox_id":"91","cmd":"sudo vim exploit.rb","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}

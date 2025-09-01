@@ -1,0 +1,14 @@
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:18:25.740Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"nmap","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:19:23.399Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"nmap 100.100.100.4","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:23:03.722Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"nmap --help","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:27:40.483Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"nmap -sS -sV -p 548 --script=afp-ls 100.100.100.4","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:30:56.066Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"nmap --script=http-sql-injection server","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:44:47.508Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ls","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:45:06.301Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"cd /var/www/html/","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:45:08.652Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ls","pool_id":"47","wd":"/var/www/html","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:45:12.938Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"cd ~","pool_id":"47","wd":"/var/www/html","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T10:11:38.113Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ssh server","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T10:13:26.860Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ssh webadmin@server","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T10:29:21.053Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ssh webadmin@server","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T10:35:14.963Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ssh webadmin@servere","pool_id":"47","wd":"/root","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T10:35:17.449Z","sandbox_id":"130","ip":"10.1.0.100","cmd":"ssh webadmin@server","pool_id":"47","wd":"/root","cmd_type":"bash-command"}

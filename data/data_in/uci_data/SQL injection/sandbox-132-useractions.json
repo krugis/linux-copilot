@@ -1,0 +1,9 @@
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:16:08.765Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"nmap server","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:21:23.908Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"man","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:21:35.914Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"man nmap","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:23:29.043Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"nmap -sC=http-sql-injection server","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:24:13.487Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"nmap --script=http-sql-injection server","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:24:39.206Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"nmap -sC http-sql-injection server","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:24:55.580Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"nmap --script=http-sql-injection server","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:54:43.248Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"ssh server webadmin","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}
+{"hostname":"attacker","username":"root","timestamp_str":"2021-01-14T09:55:09.208Z","sandbox_id":"132","ip":"10.1.0.100","cmd":"ssh webadmin@server","pool_id":"47","wd":"/root/Desktop","cmd_type":"bash-command"}

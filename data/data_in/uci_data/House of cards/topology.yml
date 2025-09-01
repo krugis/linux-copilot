@@ -1,0 +1,21 @@
+---
+
+internal_network:
+  cidr: 172.18.1.0/24
+  mask: 255.255.255.0
+  guests:
+    - hostname: target
+      box: debian/contrib-jessie64
+      ip: 172.18.1.5
+      memory: 2048
+      cpus: 1
+
+external_network:
+  cidr: 10.0.0.0/16
+  mask: 255.255.0.0
+  guests:
+    - hostname: attacker
+      box: Sliim/kali-2018.1-light-amd64
+      ip: 10.0.135.83
+      memory: 2048
+      cpus: 1

@@ -1,0 +1,15 @@
+{"timestamp_str":"2021-02-08T14:02:45+01:00","sandbox_id":"1","pool_id":"1","cmd":"ls","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:02:47+01:00","sandbox_id":"1","pool_id":"1","cmd":"ls","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:02:52+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:03:02+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 10.1.26.9","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:03:17+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 127.0.0.1","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:03:22+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 0.0.0.0","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:03:33+01:00","sandbox_id":"1","pool_id":"1","cmd":"ifconfig","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:03:51+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 10.0.2.0","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:04:14+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 10.0.2.0/24","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:05:43+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 10.1.26.0/24","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:06:19+01:00","sandbox_id":"1","pool_id":"1","cmd":"ssh 10.1.26.100","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:07:29+01:00","sandbox_id":"1","pool_id":"1","cmd":"ssh 10.1.26.9","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:07:44+01:00","sandbox_id":"1","pool_id":"1","cmd":"ssh 10.1.26.0/16","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:07:51+01:00","sandbox_id":"1","pool_id":"1","cmd":"nmap 10.1.26.0/16","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}
+{"timestamp_str":"2021-02-08T14:08:40+01:00","sandbox_id":"1","pool_id":"1","cmd":"exit","username":"vagrant","wd":"/home/vagrant","hostname":"attacker","ip":"10.1.26.23","cmd_type":"bash-command"}

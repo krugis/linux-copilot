@@ -1,0 +1,11 @@
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:12:29.442Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"ip a","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:13:20.820Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"nmap 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:13:35.445Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"nmap -sv 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:13:55.064Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"nmap -s 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:14:00.813Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"nmap 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:15:08.791Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"nmap -p0-65535 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:15:31.339Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"ssh 172.18.1.5","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:19:24.124Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"msfconsole","pool_id":"11","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:23:06.728Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"search WEBMIN","pool_id":"11","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:23:54.080Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"INFO 0","pool_id":"11","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2022-04-25T11:24:04.549Z","ip":"10.1.135.83","sandbox_id":"82","cmd":"USE 5","pool_id":"11","cmd_type":"msf-command"}

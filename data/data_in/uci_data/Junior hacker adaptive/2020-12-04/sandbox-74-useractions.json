@@ -1,0 +1,16 @@
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:12:42.417Z","sandbox_id":"74","cmd":"history","pool_id":"31","wd":"/home/admin","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:20:00.369Z","sandbox_id":"74","cmd":"ls","pool_id":"31","wd":"/home/admin","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:20:02.988Z","sandbox_id":"74","cmd":"cd personal/","pool_id":"31","wd":"/home/admin","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:20:03.786Z","sandbox_id":"74","cmd":"ls","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:20:15.754Z","sandbox_id":"74","cmd":"ls -la","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:20:59.718Z","sandbox_id":"74","cmd":"history","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:37.805Z","sandbox_id":"74","cmd":"cd Croatia\\ 2019/","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:38.274Z","sandbox_id":"74","cmd":"ls","pool_id":"31","wd":"/home/admin/personal/Croatia 2019","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:43.304Z","sandbox_id":"74","cmd":"cd ../Italy\\ 2018/","pool_id":"31","wd":"/home/admin/personal/Croatia 2019","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:43.713Z","sandbox_id":"74","cmd":"ls","pool_id":"31","wd":"/home/admin/personal/Italy 2018","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:48.021Z","sandbox_id":"74","cmd":"cd ..","pool_id":"31","wd":"/home/admin/personal/Italy 2018","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:50.982Z","sandbox_id":"74","cmd":"cat Mydata.xlsx","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:21:53.301Z","sandbox_id":"74","cmd":"ls","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:22:00.982Z","sandbox_id":"74","cmd":"clear","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:22:05.540Z","sandbox_id":"74","cmd":"history","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
+{"username":"admin","hostname":"server","ip":"10.1.26.9","timestamp_str":"2020-12-04T09:26:05.244Z","sandbox_id":"74","cmd":"ls -la","pool_id":"31","wd":"/home/admin/personal","cmd_type":"bash-command"}
